@@ -1,5 +1,6 @@
-from chessBoard import ChessBoard
-from piece import Piece
+# python -m core.chessRules
+from core.chessBoard import ChessBoard
+from core.piece import Piece
 
 
 class Rules:
@@ -157,23 +158,22 @@ class Rules:
 
 
 # """
-# testcase:
-if __name__ == '__main__':
-    game = Rules()
-    game.board.setup_board()
+# # testcase:
+# if __name__ == '__main__':
+#     game = Rules()
 
-    pawn = game.board.board[6][0]
-    rook = game.board.board[7][7]
-    knight = game.board.board[0][1]
-    bishop = game.board.board[0][5]
-    queen = game.board.board[7][3]
-    king = game.board.board[0][4]
+#     pawn = game.board.board[1][5]
+#     rook = game.board.board[7][7]
+#     knight = game.board.board[7][6]
+#     bishop = game.board.board[0][5]
+#     queen = game.board.board[7][3]
+#     king = game.board.board[0][4]
 
-    # Change all 'king' below becomes any pieces to test.
-    print("Testing moves for:", bishop)
+#     # Change all 'king' below becomes any pieces to test.
+#     print("Testing moves for:", pawn)
 
-    moves = game.generate_move(bishop)
-    print("Possible moves:", moves)
-    print("Move (2,0) is valid:", game.is_valid(bishop, (2, 0)))
-    print("Move (4,1) is valid:", game.is_valid(bishop, (4, 1)))
-# """
+#     moves = game.generate_move(pawn)
+#     print("Possible moves:", moves)
+#     print("Move (2,0) is valid:", game.is_valid(pawn, (2, 0)))
+#     print("Move (4,1) is valid:", game.is_valid(pawn, (4, 1)))
+# # """

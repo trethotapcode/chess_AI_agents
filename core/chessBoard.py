@@ -1,4 +1,5 @@
-from piece import Piece
+# run: python -m core.chessBoard
+from core.piece import Piece
 
 
 class ChessBoard:
@@ -6,6 +7,7 @@ class ChessBoard:
 
         # init board 8x8
         self.board = [[None for _ in range(8)] for _ in range(8)]
+        self.setup_board()
 
     def setup_board(self):
         # setup pawn in line 1 vs 6
@@ -15,7 +17,7 @@ class ChessBoard:
 
         # setup remaining piece
         list_other_piece = ["Rook", "Knight", "Bishop",
-                            "Queen", "King", "Bishop", "Kinght", "Rook"]
+                            "Queen", "King", "Bishop", "Knight", "Rook"]
 
         for i, each_piece in enumerate(list_other_piece):
             self.board[0][i] = Piece(each_piece, "black", (0, i))
@@ -27,7 +29,6 @@ class ChessBoard:
             print(row)
 
 
-"""# testcase
-# a = chessBoard()
-# a.setup_board()
-# a.print_board()"""
+# testcase
+# a = ChessBoard()
+# a.print_board()
