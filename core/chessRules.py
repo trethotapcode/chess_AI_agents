@@ -150,11 +150,21 @@ class Rules:
         return moves
 
     # check valid: move is possible.
-
     def is_valid(self, piece, new_position):
         valid_moves = self.generate_move(piece)
         # if new_position is not in valid moves, return false.
         return new_position in valid_moves
+
+    # capture function
+    def make_move(self, piece: Piece, move_position):
+        r, c = piece.position
+        dr, dc = move_position
+
+        # go to new position
+        piece.move((dr, dc))
+
+        self.board.board[dr][dc] = piece
+        self.board.board[r][c] = None
 
 
 # """
