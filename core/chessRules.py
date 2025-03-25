@@ -45,9 +45,17 @@ class Rules:
             moves.append((row + step, col))
 
         # pawn can move 2 step when it's in begin position.
-        if (row == 1 and piece.color == "black") or (row == 6 and piece.color == "white"):
-            if (self.board.board[row + step*2][col] is None) and (self.board.board[row + step][col] is None):
-                moves.append((row + step*2, col))
+            if (row == 1 and piece.color == "black") or (row == 6 and piece.color == "white"):
+                if (self.board.board[row + step*2][col] is None) and (self.board.board[row + step][col] is None):
+                    moves.append((row + step*2, col))
+
+        for offset in [-1, 1]:
+            new_col = col + offset
+            new_row = row + step
+            if (0 <= new_row <= 7) and (0 <= new_col <= 7):
+                new_piece = self.board.board[new_row][new_col]
+                if new_piece is not None and new_piece.color != piece.color:
+                    moves.append((new_row, new_col))
 
         return moves
 
@@ -92,7 +100,7 @@ class Rules:
                     moves.append((dr, dc))
                 else:
                     if (self.board.board[dr][dc].color != piece.color):
-                        moves.append((r, c))
+                        moves.append((dr, dc))
                     else:
                         continue
 
@@ -143,7 +151,7 @@ class Rules:
                     moves.append((dr, dc))
                 else:
                     if (self.board.board[dr][dc].color != piece.color):
-                        moves.append((r, c))
+                        moves.append((dr, dc))
                     else:
                         continue
 
