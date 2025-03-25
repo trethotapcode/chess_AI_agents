@@ -31,7 +31,7 @@ def main():
 
         # endless: after 100 moves
         move_count += 1
-        if move_count > 100:
+        if move_count > 1000:
             print("Game stopped after 100 moves (likely endless)")
             break
 
