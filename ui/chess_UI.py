@@ -7,7 +7,7 @@ sys.path.insert(0, os.path.abspath(
 import pygame
 from core.chessBoard import ChessBoard
 from core.chessRules import Rules
-
+from agents.random_agent import RandomAgent
 
 
 pygame.init()
@@ -21,7 +21,7 @@ game = Rules()
 selected_piece = None
 player_turn = 'white'
 cell_moves = []
-
+black_agent = RandomAgent('black', game)
 # loading piece images
 
 
@@ -77,6 +77,8 @@ def get_cell_from_mouse(pos):
 
 running = True
 while running:
+    mode_made = False
+
     for event in pygame.event.get():
         # quit
         if event.type == pygame.QUIT:
@@ -99,13 +101,12 @@ while running:
             else:
                 if (row, col) in cell_moves:
                     game.make_move(selected_piece, (row, col))
-                    player_turn = 'black' if (
-                        player_turn == 'white') else 'white'
-
+                    player_turn = 'black' 
+                    mode_made = True
                 # un-select if click cells not in move list or after moves.
                 selected_piece = None
                 cell_moves = []
-
+                
     draw_board(screen)
     draw_pieces(screen, game.board)
 
@@ -116,7 +117,24 @@ while running:
             highlight_color = pygame.Color(255, 100, 100, 50)  # red
             pygame.draw.rect(screen, highlight_color, pygame.Rect(
                 c*SQUARE_SIZE, r*SQUARE_SIZE, SQUARE_SIZE, SQUARE_SIZE), 5)
-            
     pygame.display.flip()
+            
+    # agent's turn
+    if player_turn == 'black':
+        pygame.time.delay(500)
+        agent_move = black_agent.select_move()
+        if agent_move:
+            piece, move = agent_move
+            game.make_move(piece, move)
+        player_turn = 'white'
+        valid_moves = []  
+
+        draw_board(screen)
+        draw_pieces(screen, game.board)
+        pygame.display.flip()
+
+
+    
+
 
 pygame.quit()
