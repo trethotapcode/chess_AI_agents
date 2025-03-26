@@ -1,4 +1,5 @@
 import pygame
+import math
 
 notification_text = None
 notification_expires = 0
@@ -121,17 +122,24 @@ def popup_checkmate(screen, message):
                     return False  
 
 # choose first step.
-def choose_first_player(screen):
-    
+
+
+def choose_first_player(screen, font_path=None):
+
     overlay = pygame.Surface((screen.get_width(), screen.get_height()))
-    overlay.set_alpha(180)  
-    overlay.fill((189, 183, 107))  
+    overlay.set_alpha(180)
+    overlay.fill((189, 183, 107))  # "khaki" color
     screen.blit(overlay, (0, 0))
 
-    font_title = pygame.font.Font(font_path, 46)
-    font_btn = pygame.font.Font(font_path, 32)
+    if not font_path:
+        font_path = None
 
-    title_surface = font_title.render("Choosing sides ", True, (255, 255, 0))
+    # font: short.ttf
+    font_title = pygame.font.Font(font_path, 46)
+    font_btn   = pygame.font.Font(font_path, 32)
+    font_label = pygame.font.Font(font_path, 24)
+
+    title_surface = font_title.render("Choosing sides", True, (255, 255, 0))
     white_surface = font_btn.render("White", True, (255,255,255))
     black_surface = font_btn.render("Black", True, (255,255,255))
 
@@ -140,20 +148,21 @@ def choose_first_player(screen):
     black_w, black_h = black_surface.get_size()
 
     padding = 30
+    # up to slider
     box_width = max(title_w, white_w+black_w+40) + padding*2
-    box_height = title_h + white_h + padding*4
+    box_height = title_h + white_h + padding*4 + 60
 
     box_x = screen.get_width()//2 - box_width//2
     box_y = screen.get_height()//2 - box_height//2
     box_rect = pygame.Rect(box_x, box_y, box_width, box_height)
     pygame.draw.rect(screen, (50,50,50), box_rect, border_radius=15)
 
-    # title
+    # draw title
     tx = box_x + (box_width - title_w)//2
     ty = box_y + padding
     screen.blit(title_surface, (tx, ty))
 
-    # create 2 button
+    # draw White/Black button
     btn_space = 20
     btn_y = ty + title_h + padding
 
@@ -163,27 +172,112 @@ def choose_first_player(screen):
     total_btn_width = white_rect.width + black_rect.width + btn_space
     start_x = box_x + (box_width - total_btn_width)//2
 
-    # white button
+    # White button
     white_rect.x = start_x
     white_rect.y = btn_y
     pygame.draw.rect(screen, (80,80,80), white_rect, border_radius=5)
     screen.blit(white_surface, (white_rect.x+10, white_rect.y+5))
 
-    # Black Button
+    # Black button
     black_rect.x = white_rect.right + btn_space
     black_rect.y = btn_y
     pygame.draw.rect(screen, (80,80,80), black_rect, border_radius=5)
     screen.blit(black_surface, (black_rect.x+10, black_rect.y+5))
 
+    # Setup slider
+    level = 0
+    dragging_slider = False
+
+    font_label_surf = font_label.render(f"Level: {level}", True, (255,255,255))
+    lbl_w, lbl_h = font_label_surf.get_size()
+
+    slider_y = black_rect.y + black_rect.height + 50
+    slider_left  = box_x + 60
+    slider_right = (box_x + box_width) - 60
+    slider_width = slider_right - slider_left
+    slider_height= 8
+
+    handle_radius = 12
+    handle_x = slider_left  # level=0 => left handle 
+    handle_y = slider_y + slider_height//2
+
     pygame.display.flip()
+    clock = pygame.time.Clock()
 
     while True:
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
-                return 'white'  
+                return 'white'
+
             elif event.type == pygame.MOUSEBUTTONDOWN:
-                mx,my = event.pos
+                mx, my = event.pos
+                # Check White
                 if white_rect.collidepoint(mx,my):
-                    return 'white'
-                elif black_rect.collidepoint(mx,my):
-                    return 'black'
+                    # Kiểm tra level
+                    if level == 0:
+                        return 'white'   # return
+                    else:
+                        # level > 0 => quit
+                        pygame.quit()
+                        exit()
+
+                # Check Black
+                if black_rect.collidepoint(mx,my):
+                    if level == 0:
+                        return 'black'
+                    else:
+                        pygame.quit()
+                        exit()
+
+                # Check handle
+                dist = math.hypot(mx - handle_x, my - handle_y)
+                if dist <= handle_radius:
+                    dragging_slider = True
+                else:
+                    # Check track => move handle
+                    track_rect = pygame.Rect(slider_left, slider_y, slider_width, slider_height)
+                    inflate_rect = track_rect.inflate(0, handle_radius*2)
+                    if inflate_rect.collidepoint(mx, my):
+                        dragging_slider = True
+                        ratio = (mx - slider_left)/slider_width
+                        ratio = max(0, min(1, ratio))
+                        level = int(round(ratio * 10))
+
+            elif event.type == pygame.MOUSEBUTTONUP:
+                dragging_slider = False
+
+            elif event.type == pygame.MOUSEMOTION and dragging_slider:
+                mx, my = event.pos
+                ratio = (mx - slider_left)/slider_width
+                ratio = max(0, min(1, ratio))
+                level = int(round(ratio * 10))
+
+        # Redraw
+        screen.blit(overlay, (0,0))
+        pygame.draw.rect(screen, (50,50,50), box_rect, border_radius=15)
+
+        screen.blit(title_surface, (tx, ty))
+
+        # White button
+        pygame.draw.rect(screen, (80,80,80), white_rect, border_radius=5)
+        screen.blit(white_surface, (white_rect.x+10, white_rect.y+5))
+
+        # Black button
+        pygame.draw.rect(screen, (80,80,80), black_rect, border_radius=5)
+        screen.blit(black_surface, (black_rect.x+10, black_rect.y+5))
+
+        # slider label
+        slider_label_surf = font_label.render(f"Level: {level}", True, (255,255,255))
+        screen.blit(slider_label_surf, (slider_left, slider_y - lbl_h - 10))
+
+        # track
+        pygame.draw.rect(screen, (150,150,150), (slider_left, slider_y, slider_width, slider_height))
+
+        # update handle_x
+        handle_x = int(slider_left + (level/10) * slider_width)
+        pygame.draw.circle(screen, (220,20,60), (handle_x, handle_y), handle_radius)
+
+        pygame.display.flip()
+        clock.tick(30)
+
+
