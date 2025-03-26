@@ -1,11 +1,16 @@
 # python -m core.chessRules
 from core.chessBoard import ChessBoard
 from core.piece import Piece
+from core.specialRules import Special
 
 
 class Rules:
     def __init__(self):
         # chess board object
+        self.board = ChessBoard()
+        self.special = Special(self)
+
+    def reset_all(self):
         self.board = ChessBoard()
 
     def generate_move(self, piece: Piece):
@@ -174,7 +179,42 @@ class Rules:
         self.board.board[dr][dc] = piece
         self.board.board[r][c] = None
 
+    # checking
+    def check_status(self, color):
+        if self.special.is_checkmate(color):
+            return "checkmate"
+        elif self.special.is_checking(color):
+            return "check"
+        else:
+            return "ongoing"
+    
+    # legal_move after checking
+    def generate_legal_moves(self, piece):
+        color = piece.color
+        moves = self.generate_move(piece)  
 
+        legal_moves = []
+        original_position = piece.position
+
+        for move in moves:
+            r_new, c_new = move
+            captured_piece = self.board.board[r_new][c_new]
+
+            # make_move temp
+            self.make_move(piece, move)
+
+            # isn't checking? 
+            if not self.special.is_checking(color):
+                legal_moves.append(move)
+
+            # undo
+            self.board.board[original_position[0]][original_position[1]] = piece
+            piece.position = original_position
+            self.board.board[r_new][c_new] = captured_piece
+
+        return legal_moves
+
+    
 # """
 # # testcase:
 # if __name__ == '__main__':

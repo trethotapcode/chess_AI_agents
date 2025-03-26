@@ -19,16 +19,20 @@ def main():
         selected = current_agent.select_move()
 
         if selected == None:
-            print(f"Game over! {turn} has no moves left.")
+            print(f"Game over after {move_count} moves! {turn} has no moves left.")
             break
 
         piece, pos = selected
         game.make_move(piece, pos)
         print(f"{turn.capitalize()} moved {piece.piece_type} to {pos}")
-
         # swap turn
         turn = 'black' if turn == 'white' else 'white'
-
+        status = game.check_status(turn)
+        
+        if status == "checkmate":
+            print(f"Game over after {move_count} moves! {turn} has no moves left.")
+        elif status == "check":
+            print(f"{turn.capitalize()} is in check!")
         # endless: after 100 moves
         move_count += 1
         if move_count > 1000:

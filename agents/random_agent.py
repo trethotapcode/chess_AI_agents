@@ -15,7 +15,7 @@ class RandomAgent:
             # cell maybe contains piece or None.
             for cell in row:
                 if cell is not None and cell.color == self.color:
-                    valid_moves = self.game.generate_move(piece=cell)
+                    valid_moves = self.game.generate_legal_moves(piece=cell)
                     for element in valid_moves:
                         moves.append((cell, element))
 
