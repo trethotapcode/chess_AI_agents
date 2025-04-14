@@ -4,6 +4,7 @@ class Piece:
         self.piece_type = piece_type  # six types.
         self.color = color            # black / white
         self.position = position
+        self.has_moved = False
 
     def move(self, new_position):
         self.position = new_position
