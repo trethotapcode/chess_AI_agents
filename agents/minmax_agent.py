@@ -24,6 +24,6 @@ class MinMaxAgent:
         if not moves:
             return None
 
-        _, moves = min_max_search(self.game, self.color, 3)
+        _, moves = min_max_search(self.game, self.color, 4)
         selected = random.choice(moves)
         return selected

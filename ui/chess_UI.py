@@ -138,7 +138,6 @@ def promotion_popup(screen, color):
 
 IMAGES = load_images()
 
-
 def run_game():
     pygame.init()
     screen = pygame.display.set_mode((640, 640))
