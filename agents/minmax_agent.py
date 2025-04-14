@@ -2,7 +2,8 @@ import random
 from core.chessRules import Rules
 from algorithm.minmax_search import min_max_search
 
-class RandomAgent:
+
+class MinMaxAgent:
     def __init__(self, color: str, game: Rules):
         self.color = color
         self.game = game
@@ -19,13 +20,10 @@ class RandomAgent:
                     for element in valid_moves:
                         moves.append((cell, element))
 
-
         # lost
         if not moves:
             return None
 
-        # random move choice
+        _, moves = min_max_search(self.game, self.color, 3)
         selected = random.choice(moves)
-
-        # contains name of piece and new_position.
         return selected

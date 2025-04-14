@@ -1,20 +1,22 @@
 # python -m ui/chess_UI.py
+from agents.minmax_agent import MinMaxAgent
+from ui.main_menu import main_menu
+from ui import notification
+from agents.random_agent import RandomAgent
+from core.chessRules import Rules
+from core.chessBoard import ChessBoard
+import pygame
 import sys
 
-# run - not ctrl + S 
+# run - not ctrl + S
 import os
 sys.path.insert(0, os.path.abspath(
     os.path.join(os.path.dirname(__file__), '..')))
 
-import pygame
-from core.chessBoard import ChessBoard
-from core.chessRules import Rules
-from agents.random_agent import RandomAgent
-from ui.notification import show_notification, draw_notification, popup_checkmate, choose_first_player
-from ui.main_menu import main_menu
 
 SQUARE_SIZE = 80
 PIECE_SIZE = 70
+
 
 def load_images():
     color_type = ['b', 'w']
@@ -34,6 +36,8 @@ def load_images():
     return images_piece
 
 # draw board
+
+
 def draw_board(screen):
     colors = [pygame.Color('white'), pygame.Color('gray')]
     for r in range(8):
@@ -43,6 +47,8 @@ def draw_board(screen):
                 c*SQUARE_SIZE, r*SQUARE_SIZE, SQUARE_SIZE, SQUARE_SIZE))
 
 # draw pieces
+
+
 def draw_pieces(screen, board):
     offset = (SQUARE_SIZE - PIECE_SIZE) // 2
     for row in range(8):
@@ -56,6 +62,8 @@ def draw_pieces(screen, board):
                     screen.blit(IMAGES[key], (x_pos, y_pos))
 
 # click cell
+
+
 def get_cell_from_mouse(pos):
     x, y = pos
     col = x // SQUARE_SIZE
@@ -63,6 +71,8 @@ def get_cell_from_mouse(pos):
     return row, col
 
 # popup for promotion
+
+
 def promotion_popup(screen, color):
     promotion_choices = [
         ("Queen",  f"./ui/assets/{color[0]}queen.png"),
@@ -71,7 +81,7 @@ def promotion_popup(screen, color):
         ("Knight", f"./ui/assets/{color[0]}knight.png")
     ]
     list_of_promos = []
-    image_size = (90, 90)  
+    image_size = (90, 90)
 
     for piece_name, path in promotion_choices:
         try:
@@ -105,7 +115,8 @@ def promotion_popup(screen, color):
                 mouse_x, mouse_y = event.pos
                 x_draw = box_x + margin
                 for piece_name, img in list_of_promos:
-                    rect = img.get_rect(topleft=(x_draw, box_y + (box_height - img_h) // 2))
+                    rect = img.get_rect(
+                        topleft=(x_draw, box_y + (box_height - img_h) // 2))
                     if rect.collidepoint(mouse_x, mouse_y):
                         return piece_name
                     x_draw += img_w + spacing
@@ -116,7 +127,8 @@ def promotion_popup(screen, color):
 
         x_draw = box_x + margin
         for piece_name, img in list_of_promos:
-            rect = img.get_rect(topleft=(x_draw, box_y + (box_height - img_h) // 2))
+            rect = img.get_rect(
+                topleft=(x_draw, box_y + (box_height - img_h) // 2))
             screen.blit(img, rect)
             x_draw += img.get_width() + spacing
 
@@ -124,8 +136,8 @@ def promotion_popup(screen, color):
         clock.tick(30)
 
 
-
 IMAGES = load_images()
+
 
 def run_game():
     pygame.init()
@@ -134,13 +146,22 @@ def run_game():
     game = Rules()
     selected_piece = None
     cell_moves = []
-    black_agent = RandomAgent('black', game)
-    
+
     user_choice = main_menu(screen, "./ui/assets/background.jpg")
     if not user_choice:
         pygame.quit()
         return
-    player_turn = choose_first_player(screen)
+
+    player_turn = notification.choose_first_player(screen)
+
+    if notification.chosen_level == 0:
+        black_agent = RandomAgent('black', game)
+    elif notification.chosen_level == 1:
+        black_agent = MinMaxAgent('black', game)
+    else:
+        pygame.quit()
+        return
+
     running = True
 
     while running:
@@ -158,7 +179,7 @@ def run_game():
                     piece = game.board.board[row][col]
                     if piece is not None and piece.color == player_turn:
                         selected_piece = piece
-                        cell_moves = game.generate_legal_moves(piece) 
+                        cell_moves = game.generate_legal_moves(piece)
                 else:
                     if (row, col) in cell_moves:
                         game.make_move(selected_piece, (row, col))
@@ -167,7 +188,8 @@ def run_game():
                             if (selected_piece.color == "white" and selected_piece.position[0] == 0) or \
                                (selected_piece.color == "black" and selected_piece.position[0] == 7):
                                 if selected_piece.color == "white":
-                                    new_type = promotion_popup(screen, selected_piece.color)
+                                    new_type = promotion_popup(
+                                        screen, selected_piece.color)
                                 else:
                                     new_type = "Queen"
                                 selected_piece.piece_type = new_type
@@ -185,21 +207,23 @@ def run_game():
             for move in cell_moves:
                 r, c = move
                 highlight_color = pygame.Color(255, 100, 100, 50)
-                pygame.draw.rect(screen, highlight_color, pygame.Rect(c*SQUARE_SIZE, r*SQUARE_SIZE, SQUARE_SIZE, SQUARE_SIZE), width=5)
-                
-        draw_notification(screen)
+                pygame.draw.rect(screen, highlight_color, pygame.Rect(
+                    c*SQUARE_SIZE, r*SQUARE_SIZE, SQUARE_SIZE, SQUARE_SIZE), width=5)
+
+        notification.draw_notification(screen)
         pygame.display.flip()
 
         if move_made:
             status_black = game.check_status('black')
             if status_black == "checkmate":
-                show_notification("Checkmate! Black loses.", 3000)
+                notification.show_notification("Checkmate! Black loses.", 3000)
                 draw_board(screen)
                 draw_pieces(screen, game.board)
-                draw_notification(screen)
+                notification.draw_notification(screen)
                 pygame.display.flip()
 
-                user_choice = popup_checkmate(screen, "Replay or exit?")
+                user_choice = notification.popup_checkmate(
+                    screen, "Replay or exit?")
                 if user_choice:
                     game.reset_all()
                     player_turn = 'white'
@@ -207,10 +231,11 @@ def run_game():
                 else:
                     running = False
             elif status_black == "check":
-                show_notification("Checking! Black is in check.", 2000)
+                notification.show_notification(
+                    "Checking! Black is in check.", 2000)
                 draw_board(screen)
                 draw_pieces(screen, game.board)
-                draw_notification(screen)
+                notification.draw_notification(screen)
                 pygame.display.flip()
 
         #  agent (black)
@@ -223,16 +248,18 @@ def run_game():
                 # agent promotion
                 if piece.piece_type == "Pawn" and piece.position[0] == 7:
                     piece.piece_type = "Queen"
-                    
+
                 status_black = game.check_status('white')
                 if status_black == "checkmate":
-                    show_notification("Checkmate! White loses.", 3000)
+                    notification.show_notification(
+                        "Checkmate! White loses.", 3000)
                     draw_board(screen)
                     draw_pieces(screen, game.board)
-                    draw_notification(screen)
+                    notification.draw_notification(screen)
                     pygame.display.flip()
 
-                    user_choice = popup_checkmate(screen, "Replay or exit?")
+                    user_choice = notification.popup_checkmate(
+                        screen, "Replay or exit?")
                     if user_choice:
                         game.reset_all()
                         player_turn = 'white'
@@ -240,20 +267,23 @@ def run_game():
                     else:
                         running = False
                 elif status_black == "check":
-                    show_notification("Checking! White is in check.", 2000)
+                    notification.show_notification(
+                        "Checking! White is in check.", 2000)
             else:
-                show_notification("Game over! Black has no moves.", 3000)
-                draw_notification(screen)
+                notification.show_notification(
+                    "Game over! Black has no moves.", 3000)
+                notification.draw_notification(screen)
                 running = False
 
             player_turn = 'white'
             cell_moves = []
             draw_board(screen)
             draw_pieces(screen, game.board)
-            draw_notification(screen)
+            notification.draw_notification(screen)
             pygame.display.flip()
 
     pygame.quit()
+
 
 if __name__ == "__main__":
     run_game()
