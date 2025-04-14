@@ -9,6 +9,7 @@ from core.piece import Piece
 from core.chessBoard import ChessBoard
 
 
+
 class TestChessBoard(unittest.TestCase):
 
     def test_board_initialization(self):
