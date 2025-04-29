@@ -12,7 +12,7 @@ def run_simulation():
     game = Rules()
     #  white agent uses MinmaxAgent, black agent uses RandomAgent
     white_agent = MinMaxAgent('white', game)
-    black_agent = RandomAgent('black', game)
+    black_agent = MinMaxAgent('black', game)
 
     # random first turn
     player_turn = random.choice(['white', 'black'])
@@ -33,7 +33,7 @@ def run_simulation():
         else:
             agent_move = black_agent.select_move()
             if agent_move is None:
-                print("White agent has no moves left! Game over.")
+                print("Black agent has no moves left! Game over.")
                 break
             piece, move = agent_move
             print(f"Black moves {piece} to {move}")
@@ -42,6 +42,12 @@ def run_simulation():
         # end statement checking
         white_status = game.check_status('white')
         black_status = game.check_status('black')
+
+        # draw by insufficient material
+        if white_status == "draw" or black_status == "draw":
+            print("Draw! Insufficient material.")
+            break
+
         if white_status == "checkmate":
             print("Checkmate! White loses.")
             break

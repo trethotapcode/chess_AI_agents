@@ -244,6 +244,8 @@ class Rules:
         setattr(piece, "has_moved", True)
 
     def check_status(self, color):
+        if self.is_insufficient_material():
+            return "draw"
         if self.special.is_checkmate(color):
             return "checkmate"
         elif self.special.is_checking(color):
@@ -299,3 +301,21 @@ class Rules:
                     self.board.board[original_position[0]][3] = None
 
         return legal_moves
+
+    def is_insufficient_material(self):
+        """Check for insufficient material draw."""
+        pieces = []
+        for row in self.board.board:
+            for p in row:
+                if isinstance(p, Piece) and p.piece_type != "King":
+                    pieces.append(p.piece_type)
+        # no material
+        if not pieces:
+            return True
+        # single minor piece
+        if len(pieces) == 1 and pieces[0] in ("Bishop", "Knight"):
+            return True
+        # two knights only
+        if len(pieces) == 2 and all(pt == "Knight" for pt in pieces):
+            return True
+        return False
