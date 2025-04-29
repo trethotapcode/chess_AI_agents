@@ -11,8 +11,8 @@ def run_simulation():
 
     game = Rules()
     #  white agent uses MinmaxAgent, black agent uses RandomAgent
-    white_agent = MinMaxAgent('white', game)
-    black_agent = MinMaxAgent('black', game)
+    white_agent = MinMaxAgent('white', game, level=3)
+    black_agent = RandomAgent('black', game)
 
     # random first turn
     player_turn = random.choice(['white', 'black'])

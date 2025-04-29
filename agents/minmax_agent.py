@@ -4,9 +4,10 @@ from algorithm.minmax_search import min_max_search
 
 
 class MinMaxAgent:
-    def __init__(self, color: str, game: Rules):
+    def __init__(self, color: str, game: Rules, level=1):
         self.color = color
         self.game = game
+        self.level = level
 
     def select_move(self):
         moves = []
@@ -23,7 +24,8 @@ class MinMaxAgent:
         # lost
         if not moves:
             return None
-
-        _, moves = min_max_search(self.game, self.color, 2)
+        
+        # print(self.level)
+        _, moves = min_max_search(self.game, self.color, self.level)
         selected = random.choice(moves)
         return selected
