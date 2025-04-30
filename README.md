@@ -4,12 +4,10 @@
 
 <h1 align="center">CHESS GAME</h1>
 
-
 <p align="center">
   Final Project – Introduction to Artificial Intelligence (CO3061)<br>
   Semester: 242
 </p>
-
 
 ## Contributors
 
@@ -34,15 +32,58 @@ To start the game, run the main script:
 python main.py
 ```
 The game interface will appear as follows:
-📷 [Insert image here]
+<p align="center">
+  <img src="ui/assets/dashboard.png" alt="" width="300"/>
+  <br>
+  <em>Dashboard</em>
+</p>
+
 
 From the Main Menu, click Play to select your side (Black/White) and the agent difficulty level.
 There are 4 levels available, from easiest to hardest:
-📷 [Insert image of difficulty selection here]
+<p align="center">
+  <img src="ui/assets/side_page.png" alt="" width="300"/>
+  <br>
+  <em>Side Page</em>
+</p>
+
+
 
 Once a level is selected, the game begins. Here are some example screenshots from gameplay:
-📷 [Insert gameplay images here]
+<p align="center">
+  <img src="ui/assets/gameplay_01.png" alt="" width="300"/>
+  <br>
+  <em>Initial board</em>
+</p>
 
+<p align="center">
+  <img src="ui/assets/gameplay_02.png" alt="Title text" width="300"/>
+  <br>
+  <em>Legal moves</em>
+</p>
+
+<p align="center">
+  <img src="ui/assets/gameplay_03.png" alt="Title text" width="300"/>
+  <br>
+  <em>Checking</em>
+</p>
+
+<p align="center">
+  <img src="ui/assets/gameplay_04.png" alt="Title text" width="300"/>
+  <br>
+  <em>Checkmate</em>
+</p>
+
+<p align="center">
+  <img src="ui/assets/gameplay_05.png" alt="Title text" width="300"/>
+  <br>
+  <em>Promotion</em>
+</p>
+<p align="center">
+  <img src="ui/assets/gameplay_06.png" alt="Title text" width="300"/>
+  <br>
+  <em>Castling</em>
+</p>
 
 ## Bot vs Bot
 To simulate a match between two AI agents, run:
@@ -51,7 +92,7 @@ python fight.py
 ```
 By default, this script pits a Level 3 Agent against a Mini Agent, and the results will be printed in the command line.
 
-For a broader evaluation, please refer to the result/ folder. It contains outcomes of 50 matches for each level against random agents. We also provide a plot showing the relation between number of moves and game number, implemented in plot.py.
+For a broader evaluation, please refer to the `result/` folder. It contains outcomes of 50 matches for each level against random agents. We also provide a plot showing the relation between number of moves and game number, implemented in `plot.py`.
 
 ## Feedback
 We welcome all feedback and suggestions for improving future versions of the project.
