@@ -1,0 +1,219 @@
+Move 1, turn: white
+White moves white Pawn at (6, 6) to (5, 6)
+Move 2, turn: black
+Black moves black Knight at (0, 1) to (2, 0)
+Move 3, turn: white
+White moves white Knight at (7, 6) to (5, 5)
+Move 4, turn: black
+Black moves black Knight at (0, 6) to (2, 5)
+Move 5, turn: white
+White moves white Bishop at (7, 5) to (5, 7)
+Move 6, turn: black
+Black moves black Pawn at (1, 3) to (2, 3)
+Move 7, turn: white
+White moves white King at (7, 4) to (7, 5)
+Move 8, turn: black
+Black moves black Pawn at (2, 3) to (3, 3)
+Move 9, turn: white
+White moves white Bishop at (5, 7) to (4, 6)
+Move 10, turn: black
+Black moves black Queen at (0, 3) to (1, 3)
+Move 11, turn: white
+White moves white Bishop at (4, 6) to (1, 3)
+Move 12, turn: black
+Black moves black Bishop at (0, 2) to (1, 3)
+Move 13, turn: white
+White moves white Knight at (5, 5) to (7, 4)
+Move 14, turn: black
+Black moves black Bishop at (1, 3) to (3, 5)
+Move 15, turn: white
+White moves white King at (7, 5) to (7, 6)
+Move 16, turn: black
+Black moves black King at (0, 4) to (1, 3)
+Move 17, turn: white
+White moves white Pawn at (6, 0) to (5, 0)
+Move 18, turn: black
+Black moves black Knight at (2, 0) to (3, 2)
+Move 19, turn: white
+White moves white Pawn at (6, 1) to (4, 1)
+Move 20, turn: black
+Black moves black Bishop at (3, 5) to (2, 4)
+Move 21, turn: white
+White moves white Pawn at (4, 1) to (3, 2)
+Move 22, turn: black
+Black moves black Bishop at (2, 4) to (5, 7)
+Move 23, turn: white
+White moves white Pawn at (5, 0) to (4, 0)
+Move 24, turn: black
+Black moves black King at (1, 3) to (0, 3)
+Move 25, turn: white
+White moves white Knight at (7, 4) to (5, 3)
+Move 26, turn: black
+Black moves black Bishop at (5, 7) to (1, 3)
+Move 27, turn: white
+White moves white Knight at (5, 3) to (7, 4)
+Move 28, turn: black
+Black moves black Knight at (2, 5) to (4, 6)
+Move 29, turn: white
+White moves white Knight at (7, 4) to (5, 3)
+Move 30, turn: black
+Black moves black King at (0, 3) to (0, 4)
+Move 31, turn: white
+White moves white Rook at (7, 0) to (5, 0)
+Move 32, turn: black
+Black moves black Bishop at (1, 3) to (2, 4)
+Move 33, turn: white
+White moves white Pawn at (6, 7) to (4, 7)
+Move 34, turn: black
+Black moves black Knight at (4, 6) to (3, 4)
+Move 35, turn: white
+White moves white Knight at (5, 3) to (3, 4)
+Move 36, turn: black
+Black moves black Pawn at (1, 1) to (2, 1)
+Move 37, turn: white
+White moves white Pawn at (5, 6) to (4, 6)
+Move 38, turn: black
+Black moves black Pawn at (1, 5) to (2, 5)
+Move 39, turn: white
+White moves white Rook at (7, 7) to (6, 7)
+Move 40, turn: black
+Black moves black Pawn at (1, 6) to (3, 6)
+Move 41, turn: white
+White moves white Pawn at (6, 2) to (5, 2)
+Move 42, turn: black
+Black moves black Rook at (0, 0) to (0, 2)
+Move 43, turn: white
+White moves white Pawn at (6, 5) to (4, 5)
+Move 44, turn: black
+Black moves black Pawn at (1, 7) to (2, 7)
+Move 45, turn: white
+White moves white Pawn at (4, 7) to (3, 7)
+Move 46, turn: black
+Black moves black Pawn at (1, 0) to (2, 0)
+Move 47, turn: white
+White moves white Pawn at (4, 5) to (3, 5)
+Move 48, turn: black
+Black moves black Rook at (0, 2) to (0, 1)
+Move 49, turn: white
+White moves white Rook at (6, 7) to (7, 7)
+Move 50, turn: black
+Black moves black Bishop at (0, 5) to (1, 6)
+Move 51, turn: white
+White moves white Rook at (7, 7) to (5, 7)
+Move 52, turn: black
+Black moves black Bishop at (2, 4) to (3, 5)
+Move 53, turn: white
+White moves white Rook at (5, 7) to (7, 7)
+Move 54, turn: black
+Black moves black King at (0, 4) to (0, 5)
+Move 55, turn: white
+White moves white Pawn at (6, 4) to (4, 4)
+Move 56, turn: black
+Black moves black Pawn at (1, 4) to (2, 4)
+Move 57, turn: white
+White moves white Queen at (7, 3) to (7, 5)
+Move 58, turn: black
+Black moves black King at (0, 5) to (1, 4)
+Move 59, turn: white
+White moves white Pawn at (4, 4) to (3, 5)
+Move 60, turn: black
+Black moves black Pawn at (2, 5) to (3, 4)
+Move 61, turn: white
+White moves white Pawn at (3, 5) to (2, 4)
+Move 62, turn: black
+Black moves black Rook at (0, 1) to (0, 0)
+Move 63, turn: white
+White moves white Queen at (7, 5) to (3, 1)
+Move 64, turn: black
+Black moves black Rook at (0, 0) to (1, 0)
+Move 65, turn: white
+White moves white Pawn at (6, 3) to (5, 3)
+Move 66, turn: black
+Black moves black Rook at (1, 0) to (0, 0)
+Move 67, turn: white
+White moves white Bishop at (7, 2) to (6, 1)
+Move 68, turn: black
+Black moves black Pawn at (2, 0) to (3, 0)
+Move 69, turn: white
+White moves white Rook at (7, 7) to (5, 7)
+Move 70, turn: black
+Black moves black King at (1, 4) to (2, 5)
+Move 71, turn: white
+White moves white King at (7, 6) to (7, 7)
+Move 72, turn: black
+Black moves black Rook at (0, 7) to (0, 5)
+Move 73, turn: white
+White moves white Rook at (5, 7) to (5, 4)
+Move 74, turn: black
+Black moves black Rook at (0, 0) to (0, 3)
+Move 75, turn: white
+White moves white Rook at (5, 0) to (6, 0)
+Move 76, turn: black
+Black moves black Rook at (0, 5) to (0, 4)
+Move 77, turn: white
+White moves white Bishop at (6, 1) to (5, 0)
+Move 78, turn: black
+Black moves black Bishop at (1, 6) to (0, 5)
+Move 79, turn: white
+White moves white King at (7, 7) to (6, 6)
+Move 80, turn: black
+Black moves black Pawn at (1, 2) to (2, 2)
+Move 81, turn: white
+White moves white Pawn at (5, 3) to (4, 3)
+Move 82, turn: black
+Black moves black King at (2, 5) to (2, 4)
+Move 83, turn: white
+White moves white Queen at (3, 1) to (2, 2)
+Move 84, turn: black
+Black moves black King at (2, 4) to (1, 4)
+Move 85, turn: white
+White moves white Pawn at (4, 3) to (3, 4)
+Move 86, turn: black
+Black moves black Pawn at (2, 1) to (3, 1)
+Move 87, turn: white
+White moves white Pawn at (4, 0) to (3, 1)
+Move 88, turn: black
+Black moves black Rook at (0, 3) to (0, 1)
+Move 89, turn: white
+White moves white Queen at (2, 2) to (2, 5)
+Move 90, turn: black
+Black moves black King at (1, 4) to (1, 3)
+Move 91, turn: white
+White moves white King at (6, 6) to (5, 7)
+Move 92, turn: black
+Black moves black Pawn at (3, 3) to (4, 3)
+Move 93, turn: white
+White moves white Queen at (2, 5) to (2, 0)
+Move 94, turn: black
+Black moves black Rook at (0, 1) to (3, 1)
+Move 95, turn: white
+White moves white Queen at (2, 0) to (3, 1)
+Move 96, turn: black
+Black moves black King at (1, 3) to (1, 4)
+Move 97, turn: white
+White moves white Pawn at (5, 2) to (4, 3)
+Move 98, turn: black
+Black moves black Rook at (0, 4) to (0, 2)
+Move 99, turn: white
+White moves white Rook at (5, 4) to (7, 4)
+Move 100, turn: black
+Black moves black Rook at (0, 2) to (0, 1)
+Move 101, turn: white
+White moves white Queen at (3, 1) to (0, 1)
+Move 102, turn: black
+Black moves black Bishop at (0, 5) to (1, 6)
+Move 103, turn: white
+White moves white Pawn at (3, 2) to (2, 2)
+Move 104, turn: black
+Black moves black King at (1, 4) to (1, 5)
+Move 105, turn: white
+White moves white Rook at (7, 4) to (5, 4)
+Move 106, turn: black
+Black moves black Bishop at (1, 6) to (0, 5)
+Move 107, turn: white
+White moves white Bishop at (5, 0) to (0, 5)
+Move 108, turn: black
+Black moves black King at (1, 5) to (2, 4)
+Move 109, turn: white
+White moves white Queen at (0, 1) to (5, 1)
+Checkmate! Black loses.
