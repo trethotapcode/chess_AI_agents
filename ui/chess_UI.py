@@ -151,15 +151,23 @@ def run_game():
         pygame.quit()
         return
 
-    player_turn = notification.choose_first_player(screen)
+    first_player = notification.choose_first_player(screen)
+    chosen_level = notification.chosen_level
+    player_turn = first_player
+    skip_delay = (first_player == 'black')
 
-    if notification.chosen_level == 0:
+    if chosen_level == 1:
         black_agent = RandomAgent('black', game)
-    elif notification.chosen_level == 1:
-        black_agent = MinMaxAgent('black', game)
+    elif chosen_level == 2:
+        black_agent = MinMaxAgent('black', game, level=1)
+    elif chosen_level == 3:
+        black_agent = MinMaxAgent('black', game, level=2)
+    elif chosen_level == 4:
+        black_agent = MinMaxAgent('black', game, level=3)
     else:
         pygame.quit()
         return
+
 
     running = True
 
@@ -225,8 +233,9 @@ def run_game():
                     screen, "Replay or exit?")
                 if user_choice:
                     game.reset_all()
-                    player_turn = 'white'
+                    player_turn = first_player
                     cell_moves = []
+                    skip_delay = True
                 else:
                     running = False
             elif status_black == "check":
@@ -239,7 +248,10 @@ def run_game():
 
         #  agent (black)
         if running and player_turn == 'black':
-            pygame.time.delay(500)
+            if not skip_delay:
+                pygame.time.delay(500)
+            else:
+                skip_delay = False
             agent_move = black_agent.select_move()
             if agent_move:
                 piece, move = agent_move
@@ -261,7 +273,7 @@ def run_game():
                         screen, "Replay or exit?")
                     if user_choice:
                         game.reset_all()
-                        player_turn = 'white'
+                        player_turn = 'black'
                         cell_moves = []
                     else:
                         running = False

@@ -124,8 +124,6 @@ def popup_checkmate(screen, message):
                     return False
 
 # choose first step.
-
-
 def choose_first_player(screen, font_path=None):
     global chosen_level
     overlay = pygame.Surface((screen.get_width(), screen.get_height()))
@@ -187,7 +185,9 @@ def choose_first_player(screen, font_path=None):
     screen.blit(black_surface, (black_rect.x+10, black_rect.y+5))
 
     # Setup slider
-    level = 0
+    slider_min = 1
+    slider_max = 4
+    level = slider_min
     dragging_slider = False
 
     font_label_surf = font_label.render(
@@ -217,7 +217,7 @@ def choose_first_player(screen, font_path=None):
                 # Check White
                 if white_rect.collidepoint(mx, my):
                     # Kiểm tra level
-                    if level in (0, 1):
+                    if level in range(1, 5):
                         chosen_level = level
                         return 'white'   # return
                     else:
@@ -227,7 +227,7 @@ def choose_first_player(screen, font_path=None):
 
                 # Check Black
                 if black_rect.collidepoint(mx, my):
-                    if level in (0, 1):
+                    if level in range(1, 5):
                         chosen_level = level
                         return 'black'
                     else:
@@ -246,8 +246,8 @@ def choose_first_player(screen, font_path=None):
                     if inflate_rect.collidepoint(mx, my):
                         dragging_slider = True
                         ratio = (mx - slider_left)/slider_width
-                        ratio = max(0, min(1, ratio))
-                        level = int(round(ratio * 10))
+                        ratio = max(0.0, min(1.0, ratio))
+                        level = int(round(ratio * (slider_max - slider_min) + slider_min))
 
             elif event.type == pygame.MOUSEBUTTONUP:
                 dragging_slider = False
@@ -255,8 +255,8 @@ def choose_first_player(screen, font_path=None):
             elif event.type == pygame.MOUSEMOTION and dragging_slider:
                 mx, my = event.pos
                 ratio = (mx - slider_left)/slider_width
-                ratio = max(0, min(1, ratio))
-                level = int(round(ratio * 10))
+                ratio = max(0.0, min(1.0, ratio))
+                level = int(round(ratio * (slider_max - slider_min) + slider_min))
 
         # Redraw
         screen.blit(overlay, (0, 0))
@@ -282,7 +282,7 @@ def choose_first_player(screen, font_path=None):
                          slider_y, slider_width, slider_height))
 
         # update handle_x
-        handle_x = int(slider_left + (level/10) * slider_width)
+        handle_x = int(slider_left + ((level - slider_min) / (slider_max - slider_min)) * slider_width)
         pygame.draw.circle(screen, (220, 20, 60),
                            (handle_x, handle_y), handle_radius)
 
