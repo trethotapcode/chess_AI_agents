@@ -6,7 +6,7 @@
 
 
 <p align="center">
-  Final Project – Introduction to Artificial Intelligence<br>
+  Final Project – Introduction to Artificial Intelligence (CO3061)<br>
   Semester: 242
 </p>
 
