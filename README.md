@@ -1,17 +1,15 @@
 <p align="center">
-  <img src="ui/assets/hcmut_logo.png" alt="BK Logo" width="120"/>
+  <img src="ui/assets/hcmut_logo.png" alt="BK Logo" width="250"/>
 </p>
 
-<h3 align="center">Student Smart Printing Service</h3>
+<h1 align="center">CHESS GAME</h1>
+
 
 <p align="center">
-  CHESS GAME 
+  Final Project – Introduction to Artificial Intelligence<br>
+  Semester: 242
 </p>
 
-# Chess Game
-
-**Final Project – Introduction to Artificial Intelligence**  
-**Semester: 242**
 
 ## Contributors
 
