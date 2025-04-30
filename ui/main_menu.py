@@ -33,7 +33,7 @@ def main_menu(screen, background_path):
     font_btn   = pygame.font.Font(custom_font_path, 40)
 
     title_surface = gradient_text("CHESS GAME", font_title, (0, 0, 0), (255, 128, 0))
-    msg_surface   = gradient_text("develop by HCMUT student group", font_msg, (0, 0, 0), (204, 0, 102))
+    msg_surface   = gradient_text("developed by HCMUT student group", font_msg, (0, 0, 0), (204, 0, 102))
 
     play_surface  = font_btn.render("PLAY", True, (255,255,255))
     exit_surface  = font_btn.render("EXIT", True, (255,255,255))
