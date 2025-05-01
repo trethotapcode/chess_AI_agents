@@ -27,5 +27,7 @@ class MinMaxAgent:
         
         # print(self.level)
         _, moves = min_max_search(self.game, self.color, self.level)
+        if len(moves) == 0:
+            raise Exception("No moves available")
         selected = random.choice(moves)
         return selected
