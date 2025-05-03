@@ -30,4 +30,5 @@ class MinMaxAgent:
         if len(moves) == 0:
             raise Exception("No moves available")
         selected = random.choice(moves)
+
         return selected
