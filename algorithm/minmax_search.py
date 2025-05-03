@@ -3,7 +3,7 @@ from core.chessRules import Rules
 KING_SCORE = 100
 QUEEN_SCORE = 9
 ROOK_SCORE = 5
-BISHOP_SCORE = 3
+BISHOP_SCORE = 3.5
 KNIGHT_SCORE = 3
 PAWN_SCORE = 1
 
@@ -65,6 +65,8 @@ BPAWN_POS_SCORE =   [[0, 0, 0, 0, 0, 0, 0, 0],
 def get_score_of_state(game, color):
     if game.check_status(color) == "checkmate":
         return 200
+    if game.check_status(color) == "draw":
+        return 0
     board = game.board.board
     score = 0
 
@@ -101,7 +103,7 @@ def get_score_of_state(game, color):
                     score -= PAWN_SCORE + 0.1 * (WPAWN_POS_SCORE[i][j] if cell.color != 'white' else BPAWN_POS_SCORE[i][j])
 
     return score
-
+  
 def min_max_search(game, color, max_height, alpha=float('-inf'), beta=float('inf'), maximum_player = True):
     if max_height == 0:
         return get_score_of_state(game, color), None

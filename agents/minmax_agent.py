@@ -24,12 +24,11 @@ class MinMaxAgent:
         # lost
         if not moves:
             return None
-
-
-        _, best_moves = min_max_search(self.game, self.color, 3)
+        
+        # print(self.level)
+        _, moves = min_max_search(self.game, self.color, self.level)
         if len(moves) == 0:
-            selected = random.choice(moves)
-        else:
-            selected = random.choice(best_moves)
-            
+            raise Exception("No moves available")
+        selected = random.choice(moves)
+
         return selected
