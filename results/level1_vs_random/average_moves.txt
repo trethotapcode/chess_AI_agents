@@ -1,2 +1,2 @@
-Average number of moves over 50 games: 691.00
-MinMaxAgent (white) wins: 5 out of 50 games
+Average number of moves over 50 games: 472.80
+MinMaxAgent (white) wins: 4 out of 50 games

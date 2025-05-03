@@ -1,2029 +1,240 @@
 Move 1, turn: white
-White moves white Pawn at (6, 1) to (4, 1)
-Move 2, turn: black
-Black moves black Pawn at (1, 1) to (2, 1)
-Move 3, turn: white
-White moves white Pawn at (6, 3) to (5, 3)
-Move 4, turn: black
-Black moves black Pawn at (1, 2) to (3, 2)
-Move 5, turn: white
-White moves white Pawn at (4, 1) to (3, 2)
-Move 6, turn: black
-Black moves black Pawn at (1, 5) to (2, 5)
-Move 7, turn: white
-White moves white Pawn at (3, 2) to (2, 1)
-Move 8, turn: black
-Black moves black Pawn at (1, 4) to (3, 4)
-Move 9, turn: white
-White moves white Pawn at (2, 1) to (1, 0)
-Move 10, turn: black
-Black moves black Pawn at (1, 3) to (2, 3)
-Move 11, turn: white
-White moves white Pawn at (1, 0) to (0, 1)
-Move 12, turn: black
-Black moves black Pawn at (2, 3) to (3, 3)
-Move 13, turn: white
 White moves white Pawn at (6, 4) to (4, 4)
-Move 14, turn: black
-Black moves black Bishop at (0, 2) to (4, 6)
-Move 15, turn: white
-White moves white Queen at (7, 3) to (4, 6)
-Move 16, turn: black
-Black moves black Queen at (0, 3) to (2, 3)
-Move 17, turn: white
-White moves white Queen at (4, 6) to (1, 6)
-Move 18, turn: black
-Black moves black Pawn at (3, 3) to (4, 4)
-Move 19, turn: white
-White moves white Queen at (1, 6) to (0, 7)
-Move 20, turn: black
-Black moves black Queen at (2, 3) to (4, 1)
-Move 21, turn: white
-White moves white King at (7, 4) to (7, 3)
-Move 22, turn: black
-Black moves black Bishop at (0, 5) to (2, 7)
-Move 23, turn: white
+Move 2, turn: black
+Black moves black Pawn at (1, 6) to (2, 6)
+Move 3, turn: white
+White moves white Pawn at (6, 3) to (4, 3)
+Move 4, turn: black
+Black moves black Pawn at (1, 1) to (3, 1)
+Move 5, turn: white
+White moves white Bishop at (7, 5) to (3, 1)
+Move 6, turn: black
+Black moves black Knight at (0, 6) to (2, 7)
+Move 7, turn: white
 White moves white Bishop at (7, 2) to (2, 7)
-Move 24, turn: black
-Black moves black Pawn at (4, 4) to (5, 3)
-Move 25, turn: white
-White moves white Queen at (0, 7) to (0, 6)
-Move 26, turn: black
-Black moves black King at (0, 4) to (1, 4)
-Move 27, turn: white
-White moves white Pawn at (6, 2) to (5, 3)
-Move 28, turn: black
-Black moves black Queen at (4, 1) to (5, 1)
-Move 29, turn: white
-White moves white Pawn at (6, 0) to (5, 1)
-Move 30, turn: black
-Black moves black Rook at (0, 0) to (1, 0)
-Move 31, turn: white
-White moves white Rook at (7, 0) to (1, 0)
-Move 32, turn: black
-Black moves black King at (1, 4) to (2, 3)
-Move 33, turn: white
-White moves white Queen at (0, 6) to (1, 7)
-Move 34, turn: black
-Black moves black King at (2, 3) to (2, 4)
-Move 35, turn: white
-White moves white Queen at (1, 7) to (1, 5)
-Move 36, turn: black
-Black moves black King at (2, 4) to (2, 3)
-Move 37, turn: white
-White moves white Queen at (1, 5) to (2, 5)
-Move 38, turn: black
-Black moves black King at (2, 3) to (3, 3)
-Move 39, turn: white
-White moves white Queen at (2, 5) to (3, 4)
-Move 40, turn: black
-Black moves black King at (3, 3) to (2, 2)
-Move 41, turn: white
-White moves white Queen at (3, 4) to (2, 3)
-Move 42, turn: black
-Black moves black King at (2, 2) to (2, 3)
-Move 43, turn: white
-White moves white Knight at (7, 6) to (6, 4)
-Move 44, turn: black
-Black moves black King at (2, 3) to (2, 4)
-Move 45, turn: white
-White moves white King at (7, 3) to (6, 2)
-Move 46, turn: black
-Black moves black King at (2, 4) to (3, 3)
-Move 47, turn: white
-White moves white Rook at (1, 0) to (4, 0)
-Move 48, turn: black
-Black moves black King at (3, 3) to (3, 2)
-Move 49, turn: white
-White moves white Rook at (4, 0) to (2, 0)
-Move 50, turn: black
-Black moves black King at (3, 2) to (4, 1)
-Move 51, turn: white
-White moves white Knight at (7, 1) to (5, 2)
-Move 52, turn: black
-Black moves black King at (4, 1) to (3, 2)
-Move 53, turn: white
-White moves white Knight at (6, 4) to (7, 6)
-Move 54, turn: black
-Black moves black King at (3, 2) to (4, 3)
-Move 55, turn: white
-White moves white Rook at (2, 0) to (2, 2)
-Move 56, turn: black
-Black moves black King at (4, 3) to (3, 4)
-Move 57, turn: white
-White moves white Rook at (2, 2) to (2, 4)
-Move 58, turn: black
-Black moves black King at (3, 4) to (3, 5)
-Move 59, turn: white
-White moves white Knight at (5, 2) to (4, 0)
-Move 60, turn: black
-Black moves black King at (3, 5) to (4, 6)
-Move 61, turn: white
-White moves white Pawn at (5, 3) to (4, 3)
-Move 62, turn: black
-Black moves black King at (4, 6) to (3, 7)
-Move 63, turn: white
-White moves white Knight at (7, 6) to (6, 4)
-Move 64, turn: black
-Black moves black King at (3, 7) to (4, 6)
-Move 65, turn: white
-White moves white King at (6, 2) to (7, 2)
-Move 66, turn: black
-Black moves black King at (4, 6) to (3, 5)
-Move 67, turn: white
+Move 8, turn: black
+Black moves black Pawn at (1, 5) to (3, 5)
+Move 9, turn: white
 White moves white Bishop at (2, 7) to (0, 5)
-Move 68, turn: black
-Black moves black King at (3, 5) to (4, 6)
-Move 69, turn: white
-White moves white King at (7, 2) to (7, 3)
-Move 70, turn: black
-Black moves black King at (4, 6) to (3, 7)
-Move 71, turn: white
-White moves white Rook at (2, 4) to (2, 6)
-Move 72, turn: black
-Black moves black King at (3, 7) to (2, 6)
-Move 73, turn: white
-White moves white Bishop at (0, 5) to (4, 1)
-Move 74, turn: black
-Black moves black King at (2, 6) to (3, 5)
-Move 75, turn: white
-White moves white Knight at (6, 4) to (5, 2)
-Move 76, turn: black
-Black moves black King at (3, 5) to (3, 6)
-Move 77, turn: white
-White moves white Bishop at (7, 5) to (6, 4)
-Move 78, turn: black
-Black moves black King at (3, 6) to (3, 5)
-Move 79, turn: white
-White moves white Knight at (4, 0) to (3, 2)
-Move 80, turn: black
-Black moves black King at (3, 5) to (3, 6)
-Move 81, turn: white
-White moves white Knight at (3, 2) to (4, 4)
-Move 82, turn: black
-Black moves black King at (3, 6) to (4, 5)
-Move 83, turn: white
-White moves white Rook at (7, 7) to (7, 4)
-Move 84, turn: black
-Black moves black King at (4, 5) to (3, 5)
-Move 85, turn: white
-White moves white Bishop at (6, 4) to (7, 5)
-Move 86, turn: black
-Black moves black King at (3, 5) to (4, 5)
-Move 87, turn: white
-White moves white Knight at (4, 4) to (2, 5)
-Move 88, turn: black
-Black moves black King at (4, 5) to (3, 6)
-Move 89, turn: white
-White moves white Knight at (5, 2) to (6, 0)
-Move 90, turn: black
-Black moves black King at (3, 6) to (2, 7)
-Move 91, turn: white
-White moves white Pawn at (6, 5) to (5, 5)
-Move 92, turn: black
-Black moves black King at (2, 7) to (1, 6)
-Move 93, turn: white
-White moves white Knight at (2, 5) to (1, 3)
-Move 94, turn: black
-Black moves black King at (1, 6) to (2, 7)
-Move 95, turn: white
-White moves white Bishop at (7, 5) to (2, 0)
-Move 96, turn: black
-Black moves black King at (2, 7) to (2, 6)
-Move 97, turn: white
-White moves white Rook at (7, 4) to (4, 4)
-Move 98, turn: black
-Black moves black King at (2, 6) to (3, 5)
-Move 99, turn: white
-White moves white Rook at (4, 4) to (2, 4)
-Move 100, turn: black
-Black moves black King at (3, 5) to (4, 5)
-Move 101, turn: white
-White moves white Rook at (2, 4) to (1, 4)
-Move 102, turn: black
-Black moves black King at (4, 5) to (3, 6)
-Move 103, turn: white
-White moves white Rook at (1, 4) to (1, 7)
-Move 104, turn: black
-Black moves black King at (3, 6) to (2, 6)
-Move 105, turn: white
-White moves white Rook at (1, 7) to (1, 6)
-Move 106, turn: black
-Black moves black King at (2, 6) to (3, 7)
-Move 107, turn: white
-White moves white Knight at (1, 3) to (3, 2)
-Move 108, turn: black
-Black moves black King at (3, 7) to (2, 7)
-Move 109, turn: white
-White moves white Pawn at (6, 7) to (5, 7)
-Move 110, turn: black
-Black moves black King at (2, 7) to (3, 7)
-Move 111, turn: white
-White moves white Rook at (1, 6) to (1, 7)
-Move 112, turn: black
-Black moves black King at (3, 7) to (3, 6)
-Move 113, turn: white
-White moves white Rook at (1, 7) to (0, 7)
-Move 114, turn: black
-Black moves black King at (3, 6) to (2, 6)
-Move 115, turn: white
-White moves white Rook at (0, 7) to (1, 7)
-Move 116, turn: black
-Black moves black King at (2, 6) to (1, 7)
-Move 117, turn: white
-White moves white Bishop at (4, 1) to (7, 4)
-Move 118, turn: black
-Black moves black King at (1, 7) to (0, 7)
-Move 119, turn: white
-White moves white Bishop at (2, 0) to (1, 1)
-Move 120, turn: black
-Black moves black King at (0, 7) to (0, 6)
-Move 121, turn: white
-White moves white Knight at (6, 0) to (5, 2)
-Move 122, turn: black
-Black moves black King at (0, 6) to (1, 5)
-Move 123, turn: white
-White moves white Pawn at (4, 3) to (3, 3)
-Move 124, turn: black
-Black moves black King at (1, 5) to (1, 6)
-Move 125, turn: white
-White moves white Knight at (5, 2) to (4, 0)
-Move 126, turn: black
-Black moves black King at (1, 6) to (2, 6)
-Move 127, turn: white
-White moves white Knight at (4, 0) to (2, 1)
-Move 128, turn: black
-Black moves black King at (2, 6) to (2, 5)
-Move 129, turn: white
-White moves white Knight at (3, 2) to (2, 4)
-Move 130, turn: black
-Black moves black King at (2, 5) to (2, 6)
-Move 131, turn: white
-White moves white Pawn at (3, 3) to (2, 3)
-Move 132, turn: black
-Black moves black King at (2, 6) to (3, 5)
-Move 133, turn: white
-White moves white Knight at (2, 1) to (4, 2)
-Move 134, turn: black
-Black moves black King at (3, 5) to (2, 5)
-Move 135, turn: white
-White moves white Knight at (2, 4) to (4, 5)
-Move 136, turn: black
-Black moves black King at (2, 5) to (3, 5)
-Move 137, turn: white
-White moves white Knight at (4, 2) to (6, 3)
-Move 138, turn: black
-Black moves black King at (3, 5) to (4, 5)
-Move 139, turn: white
-White moves white King at (7, 3) to (6, 2)
-Move 140, turn: black
-Black moves black King at (4, 5) to (3, 4)
-Move 141, turn: white
-White moves white Knight at (6, 3) to (7, 5)
-Move 142, turn: black
-Black moves black King at (3, 4) to (2, 4)
-Move 143, turn: white
-White moves white Bishop at (1, 1) to (3, 3)
-Move 144, turn: black
-Black moves black King at (2, 4) to (2, 5)
-Move 145, turn: white
-White moves white Pawn at (2, 3) to (1, 3)
-Move 146, turn: black
-Black moves black King at (2, 5) to (3, 5)
-Move 147, turn: white
-White moves white King at (6, 2) to (7, 2)
-Move 148, turn: black
-Black moves black King at (3, 5) to (3, 6)
-Move 149, turn: white
-White moves white Bishop at (7, 4) to (6, 5)
-Move 150, turn: black
-Black moves black King at (3, 6) to (2, 6)
-Move 151, turn: white
-White moves white Bishop at (6, 5) to (7, 6)
-Move 152, turn: black
-Black moves black King at (2, 6) to (2, 5)
-Move 153, turn: white
-White moves white King at (7, 2) to (7, 1)
-Move 154, turn: black
-Black moves black King at (2, 5) to (3, 4)
-Move 155, turn: white
-White moves white Pawn at (5, 7) to (4, 7)
-Move 156, turn: black
-Black moves black King at (3, 4) to (3, 5)
-Move 157, turn: white
-White moves white Bishop at (7, 6) to (4, 3)
-Move 158, turn: black
-Black moves black King at (3, 5) to (2, 6)
-Move 159, turn: white
-White moves white Pawn at (6, 6) to (5, 6)
-Move 160, turn: black
-Black moves black King at (2, 6) to (2, 7)
-Move 161, turn: white
-White moves white Knight at (7, 5) to (6, 7)
-Move 162, turn: black
-Black moves black King at (2, 7) to (1, 7)
-Move 163, turn: white
-White moves white Pawn at (4, 7) to (3, 7)
-Move 164, turn: black
-Black moves black King at (1, 7) to (2, 7)
-Move 165, turn: white
-White moves white Bishop at (3, 3) to (4, 4)
-Move 166, turn: black
-Black moves black King at (2, 7) to (3, 6)
-Move 167, turn: white
-White moves white Bishop at (4, 4) to (3, 5)
-Move 168, turn: black
-Black moves black King at (3, 6) to (3, 7)
-Move 169, turn: white
-White moves white Bishop at (4, 3) to (1, 0)
-Move 170, turn: black
-Black moves black King at (3, 7) to (3, 6)
-Move 171, turn: white
-White moves white Bishop at (1, 0) to (7, 6)
-Move 172, turn: black
-Black moves black King at (3, 6) to (2, 5)
-Move 173, turn: white
-White moves white Bishop at (7, 6) to (6, 5)
-Move 174, turn: black
-Black moves black King at (2, 5) to (1, 5)
-Move 175, turn: white
-White moves white Bishop at (6, 5) to (2, 1)
-Move 176, turn: black
-Black moves black King at (1, 5) to (0, 5)
-Move 177, turn: white
-White moves white Bishop at (2, 1) to (7, 6)
-Move 178, turn: black
-Black moves black King at (0, 5) to (1, 6)
-Move 179, turn: white
-White moves white Bishop at (3, 5) to (5, 7)
-Move 180, turn: black
-Black moves black King at (1, 6) to (0, 5)
-Move 181, turn: white
-White moves white Bishop at (7, 6) to (4, 3)
-Move 182, turn: black
-Black moves black King at (0, 5) to (1, 5)
-Move 183, turn: white
-White moves white King at (7, 1) to (7, 2)
-Move 184, turn: black
-Black moves black King at (1, 5) to (0, 5)
-Move 185, turn: white
-White moves white King at (7, 2) to (7, 1)
-Move 186, turn: black
-Black moves black King at (0, 5) to (1, 4)
-Move 187, turn: white
-White moves white Bishop at (4, 3) to (1, 6)
-Move 188, turn: black
-Black moves black King at (1, 4) to (2, 3)
-Move 189, turn: white
-White moves white Bishop at (5, 7) to (7, 5)
-Move 190, turn: black
-Black moves black King at (2, 3) to (1, 2)
-Move 191, turn: white
-White moves white Bishop at (1, 6) to (0, 7)
-Move 192, turn: black
-Black moves black King at (1, 2) to (2, 3)
-Move 193, turn: white
-White moves white Bishop at (7, 5) to (6, 4)
-Move 194, turn: black
-Black moves black King at (2, 3) to (2, 2)
-Move 195, turn: white
-White moves white Bishop at (0, 7) to (1, 6)
-Move 196, turn: black
-Black moves black King at (2, 2) to (1, 3)
-Move 197, turn: white
-White moves white Bishop at (6, 4) to (3, 1)
-Move 198, turn: black
-Black moves black King at (1, 3) to (1, 4)
-Move 199, turn: white
-White moves white Bishop at (3, 1) to (2, 2)
-Move 200, turn: black
-Black moves black King at (1, 4) to (2, 4)
-Move 201, turn: white
-White moves white Bishop at (1, 6) to (6, 1)
-Move 202, turn: black
-Black moves black King at (2, 4) to (3, 5)
-Move 203, turn: white
-White moves white Bishop at (2, 2) to (4, 4)
-Move 204, turn: black
-Black moves black King at (3, 5) to (2, 4)
-Move 205, turn: white
-White moves white Bishop at (4, 4) to (2, 2)
-Move 206, turn: black
-Black moves black King at (2, 4) to (1, 5)
-Move 207, turn: white
-White moves white Bishop at (2, 2) to (0, 4)
-Move 208, turn: black
-Black moves black King at (1, 5) to (0, 4)
-Move 209, turn: white
-White moves white King at (7, 1) to (6, 0)
-Move 210, turn: black
+Move 10, turn: black
+Black moves black Rook at (0, 7) to (0, 6)
+Move 11, turn: white
+White moves white Bishop at (3, 1) to (1, 3)
+Move 12, turn: black
+Black moves black Knight at (0, 1) to (1, 3)
+Move 13, turn: white
+White moves white Bishop at (0, 5) to (1, 4)
+Move 14, turn: black
+Black moves black Pawn at (3, 5) to (4, 5)
+Move 15, turn: white
+White moves white Bishop at (1, 4) to (0, 3)
+Move 16, turn: black
+Black moves black Knight at (1, 3) to (2, 1)
+Move 17, turn: white
+White moves white Bishop at (0, 3) to (1, 2)
+Move 18, turn: black
+Black moves black Knight at (2, 1) to (4, 2)
+Move 19, turn: white
+White moves white Bishop at (1, 2) to (4, 5)
+Move 20, turn: black
+Black moves black Rook at (0, 6) to (0, 7)
+Move 21, turn: white
+White moves white Knight at (7, 1) to (5, 2)
+Move 22, turn: black
+Black moves black Knight at (4, 2) to (3, 4)
+Move 23, turn: white
+White moves white Bishop at (4, 5) to (3, 4)
+Move 24, turn: black
+Black moves black Rook at (0, 0) to (0, 1)
+Move 25, turn: white
+White moves white Bishop at (3, 4) to (0, 7)
+Move 26, turn: black
+Black moves black Rook at (0, 1) to (2, 1)
+Move 27, turn: white
+White moves white Pawn at (6, 5) to (4, 5)
+Move 28, turn: black
+Black moves black Pawn at (1, 0) to (3, 0)
+Move 29, turn: white
+White moves white Knight at (7, 6) to (5, 5)
+Move 30, turn: black
+Black moves black Bishop at (0, 2) to (3, 5)
+Move 31, turn: white
+White moves white Pawn at (4, 4) to (3, 5)
+Move 32, turn: black
+Black moves black Pawn at (2, 6) to (3, 6)
+Move 33, turn: white
+White moves white Pawn at (4, 5) to (3, 6)
+Move 34, turn: black
 Black moves black King at (0, 4) to (0, 5)
-Move 211, turn: white
-White moves white Pawn at (5, 6) to (4, 6)
-Move 212, turn: black
-Black moves black King at (0, 5) to (0, 6)
-Move 213, turn: white
-White moves white Pawn at (4, 6) to (3, 6)
-Move 214, turn: black
-Black moves black King at (0, 6) to (0, 5)
-Move 215, turn: white
-White moves white King at (6, 0) to (7, 0)
-Move 216, turn: black
-Black moves black King at (0, 5) to (1, 5)
-Move 217, turn: white
-White moves white Knight at (6, 7) to (7, 5)
-Move 218, turn: black
-Black moves black King at (1, 5) to (0, 4)
-Move 219, turn: white
+Move 35, turn: white
 White moves white Pawn at (3, 6) to (2, 6)
-Move 220, turn: black
-Black moves black King at (0, 4) to (0, 3)
-Move 221, turn: white
-White moves white King at (7, 0) to (6, 0)
-Move 222, turn: black
-Black moves black King at (0, 3) to (1, 2)
-Move 223, turn: white
-White moves white Pawn at (2, 6) to (1, 6)
-Move 224, turn: black
-Black moves black King at (1, 2) to (2, 3)
-Move 225, turn: white
-White moves white Bishop at (6, 1) to (7, 2)
-Move 226, turn: black
-Black moves black King at (2, 3) to (1, 4)
-Move 227, turn: white
-White moves white Knight at (7, 5) to (6, 7)
-Move 228, turn: black
-Black moves black King at (1, 4) to (0, 3)
-Move 229, turn: white
-White moves white Knight at (6, 7) to (4, 6)
-Move 230, turn: black
-Black moves black King at (0, 3) to (1, 4)
-Move 231, turn: white
-White moves white King at (6, 0) to (6, 1)
-Move 232, turn: black
-Black moves black King at (1, 4) to (1, 3)
-Move 233, turn: white
-White moves white Knight at (4, 6) to (2, 5)
-Move 234, turn: black
-Black moves black King at (1, 3) to (0, 2)
-Move 235, turn: white
-White moves white Bishop at (7, 2) to (5, 4)
-Move 236, turn: black
-Black moves black King at (0, 2) to (0, 3)
-Move 237, turn: white
-White moves white Knight at (2, 5) to (1, 3)
-Move 238, turn: black
-Black moves black King at (0, 3) to (1, 3)
-Move 239, turn: white
-White moves white King at (6, 1) to (7, 0)
-Move 240, turn: black
-Black moves black King at (1, 3) to (0, 3)
-Move 241, turn: white
-White moves white Bishop at (5, 4) to (2, 1)
-Move 242, turn: black
-Black moves black King at (0, 3) to (0, 4)
-Move 243, turn: white
-White moves white King at (7, 0) to (6, 1)
-Move 244, turn: black
-Black moves black King at (0, 4) to (1, 3)
-Move 245, turn: white
-White moves white Bishop at (2, 1) to (1, 2)
-Move 246, turn: black
-Black moves black King at (1, 3) to (0, 4)
-Move 247, turn: white
-White moves white King at (6, 1) to (6, 0)
-Move 248, turn: black
-Black moves black King at (0, 4) to (1, 5)
-Move 249, turn: white
-White moves white Bishop at (1, 2) to (3, 4)
-Move 250, turn: black
-Black moves black King at (1, 5) to (2, 6)
-Move 251, turn: white
-White moves white Bishop at (3, 4) to (1, 2)
-Move 252, turn: black
-Black moves black King at (2, 6) to (3, 5)
-Move 253, turn: white
-White moves white Bishop at (1, 2) to (3, 4)
-Move 254, turn: black
-Black moves black King at (3, 5) to (3, 6)
-Move 255, turn: white
-White moves white King at (6, 0) to (6, 1)
-Move 256, turn: black
-Black moves black King at (3, 6) to (3, 5)
-Move 257, turn: white
-White moves white Bishop at (3, 4) to (4, 3)
-Move 258, turn: black
-Black moves black King at (3, 5) to (2, 4)
-Move 259, turn: white
-White moves white King at (6, 1) to (6, 0)
-Move 260, turn: black
-Black moves black King at (2, 4) to (1, 3)
-Move 261, turn: white
-White moves white Bishop at (4, 3) to (5, 4)
-Move 262, turn: black
-Black moves black King at (1, 3) to (1, 4)
-Move 263, turn: white
-White moves white Pawn at (5, 1) to (4, 1)
-Move 264, turn: black
-Black moves black King at (1, 4) to (0, 4)
-Move 265, turn: white
-White moves white Pawn at (1, 6) to (0, 6)
-Move 266, turn: black
-Black moves black King at (0, 4) to (0, 5)
-Move 267, turn: white
-White moves white Bishop at (5, 4) to (6, 3)
-Move 268, turn: black
-Black moves black King at (0, 5) to (0, 4)
-Move 269, turn: white
-White moves white Pawn at (5, 5) to (4, 5)
-Move 270, turn: black
-Black moves black King at (0, 4) to (1, 4)
-Move 271, turn: white
-White moves white Pawn at (4, 5) to (3, 5)
-Move 272, turn: black
-Black moves black King at (1, 4) to (1, 3)
-Move 273, turn: white
-White moves white Bishop at (6, 3) to (2, 7)
-Move 274, turn: black
-Black moves black King at (1, 3) to (0, 2)
-Move 275, turn: white
-White moves white Bishop at (2, 7) to (4, 5)
-Move 276, turn: black
-Black moves black King at (0, 2) to (1, 1)
-Move 277, turn: white
-White moves white King at (6, 0) to (5, 0)
-Move 278, turn: black
-Black moves black King at (1, 1) to (2, 2)
-Move 279, turn: white
-White moves white Bishop at (4, 5) to (3, 6)
-Move 280, turn: black
-Black moves black King at (2, 2) to (1, 2)
-Move 281, turn: white
-White moves white Bishop at (3, 6) to (0, 3)
-Move 282, turn: black
-Black moves black King at (1, 2) to (2, 3)
-Move 283, turn: white
-White moves white King at (5, 0) to (6, 0)
-Move 284, turn: black
-Black moves black King at (2, 3) to (3, 3)
-Move 285, turn: white
-White moves white King at (6, 0) to (7, 1)
-Move 286, turn: black
-Black moves black King at (3, 3) to (3, 4)
-Move 287, turn: white
-White moves white Bishop at (0, 3) to (3, 6)
-Move 288, turn: black
-Black moves black King at (3, 4) to (4, 3)
-Move 289, turn: white
-White moves white Bishop at (3, 6) to (0, 3)
-Move 290, turn: black
-Black moves black King at (4, 3) to (3, 3)
-Move 291, turn: white
-White moves white King at (7, 1) to (7, 0)
-Move 292, turn: black
-Black moves black King at (3, 3) to (4, 2)
-Move 293, turn: white
-White moves white King at (7, 0) to (6, 1)
-Move 294, turn: black
-Black moves black King at (4, 2) to (4, 1)
-Move 295, turn: white
-White moves white King at (6, 1) to (7, 2)
-Move 296, turn: black
-Black moves black King at (4, 1) to (4, 0)
-Move 297, turn: white
-White moves white Bishop at (0, 3) to (2, 5)
-Move 298, turn: black
-Black moves black King at (4, 0) to (5, 0)
-Move 299, turn: white
-White moves white Bishop at (2, 5) to (4, 3)
-Move 300, turn: black
-Black moves black King at (5, 0) to (4, 0)
-Move 301, turn: white
-White moves white Bishop at (4, 3) to (5, 2)
-Move 302, turn: black
-Black moves black King at (4, 0) to (3, 1)
-Move 303, turn: white
-White moves white Bishop at (5, 2) to (4, 1)
-Move 304, turn: black
-Black moves black King at (3, 1) to (4, 1)
-Move 305, turn: white
+Move 36, turn: black
+Black moves black Rook at (2, 1) to (3, 1)
+Move 37, turn: white
+White moves white Knight at (5, 2) to (3, 1)
+Move 38, turn: black
+Black moves black Pawn at (1, 7) to (2, 7)
+Move 39, turn: white
 White moves white Pawn at (3, 5) to (2, 5)
-Move 306, turn: black
-Black moves black King at (4, 1) to (5, 0)
-Move 307, turn: white
-White moves white King at (7, 2) to (7, 3)
-Move 308, turn: black
-Black moves black King at (5, 0) to (5, 1)
-Move 309, turn: white
+Move 40, turn: black
+Black moves black Pawn at (2, 7) to (3, 7)
+Move 41, turn: white
+White moves white Pawn at (6, 2) to (5, 2)
+Move 42, turn: black
+Black moves black Pawn at (3, 0) to (4, 0)
+Move 43, turn: white
+White moves white Queen at (7, 3) to (4, 0)
+Move 44, turn: black
+Black moves black King at (0, 5) to (0, 6)
+Move 45, turn: white
+White moves white Queen at (4, 0) to (5, 1)
+Move 46, turn: black
+Black moves black King at (0, 6) to (0, 7)
+Move 47, turn: white
+White moves white Pawn at (2, 6) to (1, 6)
+Move 48, turn: black
+Black moves black King at (0, 7) to (1, 7)
+Move 49, turn: white
 White moves white Pawn at (2, 5) to (1, 5)
-Move 310, turn: black
-Black moves black King at (5, 1) to (6, 1)
-Move 311, turn: white
-White moves white King at (7, 3) to (6, 3)
-Move 312, turn: black
-Black moves black King at (6, 1) to (6, 0)
-Move 313, turn: white
-White moves white King at (6, 3) to (6, 2)
-Move 314, turn: black
-Black moves black King at (6, 0) to (7, 0)
-Move 315, turn: white
-White moves white King at (6, 2) to (5, 1)
-Move 316, turn: black
-Black moves black King at (7, 0) to (7, 1)
-Move 317, turn: white
-White moves white King at (5, 1) to (5, 0)
-Move 318, turn: black
-Black moves black King at (7, 1) to (7, 2)
-Move 319, turn: white
-White moves white Pawn at (1, 5) to (0, 5)
-Move 320, turn: black
-Black moves black King at (7, 2) to (7, 1)
-Move 321, turn: white
-White moves white King at (5, 0) to (4, 1)
-Move 322, turn: black
-Black moves black King at (7, 1) to (7, 2)
-Move 323, turn: white
-White moves white King at (4, 1) to (5, 0)
-Move 324, turn: black
-Black moves black King at (7, 2) to (6, 2)
-Move 325, turn: white
-White moves white King at (5, 0) to (6, 0)
-Move 326, turn: black
-Black moves black King at (6, 2) to (5, 3)
-Move 327, turn: white
-White moves white King at (6, 0) to (7, 1)
-Move 328, turn: black
-Black moves black King at (5, 3) to (5, 2)
-Move 329, turn: white
-White moves white King at (7, 1) to (7, 2)
-Move 330, turn: black
-Black moves black King at (5, 2) to (5, 3)
-Move 331, turn: white
-White moves white King at (7, 2) to (7, 3)
-Move 332, turn: black
-Black moves black King at (5, 3) to (4, 4)
-Move 333, turn: white
-White moves white King at (7, 3) to (7, 4)
-Move 334, turn: black
-Black moves black King at (4, 4) to (3, 5)
-Move 335, turn: white
-White moves white King at (7, 4) to (7, 5)
-Move 336, turn: black
-Black moves black King at (3, 5) to (2, 5)
-Move 337, turn: white
-White moves white King at (7, 5) to (7, 4)
-Move 338, turn: black
-Black moves black King at (2, 5) to (2, 4)
-Move 339, turn: white
-White moves white King at (7, 4) to (7, 3)
-Move 340, turn: black
-Black moves black King at (2, 4) to (3, 3)
-Move 341, turn: white
-White moves white King at (7, 3) to (6, 4)
-Move 342, turn: black
-Black moves black King at (3, 3) to (3, 4)
-Move 343, turn: white
-White moves white King at (6, 4) to (7, 4)
-Move 344, turn: black
-Black moves black King at (3, 4) to (3, 3)
-Move 345, turn: white
-White moves white King at (7, 4) to (7, 3)
-Move 346, turn: black
-Black moves black King at (3, 3) to (4, 3)
-Move 347, turn: white
-White moves white King at (7, 3) to (7, 2)
-Move 348, turn: black
-Black moves black King at (4, 3) to (5, 2)
-Move 349, turn: white
-White moves white King at (7, 2) to (7, 1)
-Move 350, turn: black
-Black moves black King at (5, 2) to (5, 3)
-Move 351, turn: white
-White moves white King at (7, 1) to (6, 1)
-Move 352, turn: black
-Black moves black King at (5, 3) to (4, 3)
-Move 353, turn: white
-White moves white King at (6, 1) to (5, 0)
-Move 354, turn: black
-Black moves black King at (4, 3) to (4, 4)
-Move 355, turn: white
-White moves white King at (5, 0) to (5, 1)
-Move 356, turn: black
-Black moves black King at (4, 4) to (5, 3)
-Move 357, turn: white
-White moves white King at (5, 1) to (6, 0)
-Move 358, turn: black
-Black moves black King at (5, 3) to (6, 3)
-Move 359, turn: white
-White moves white King at (6, 0) to (5, 0)
-Move 360, turn: black
-Black moves black King at (6, 3) to (5, 2)
-Move 361, turn: white
-White moves white King at (5, 0) to (4, 0)
-Move 362, turn: black
-Black moves black King at (5, 2) to (5, 3)
-Move 363, turn: white
-White moves white King at (4, 0) to (4, 1)
-Move 364, turn: black
-Black moves black King at (5, 3) to (5, 4)
-Move 365, turn: white
-White moves white King at (4, 1) to (5, 2)
-Move 366, turn: black
-Black moves black King at (5, 4) to (6, 4)
-Move 367, turn: white
-White moves white King at (5, 2) to (6, 2)
-Move 368, turn: black
-Black moves black King at (6, 4) to (7, 5)
-Move 369, turn: white
-White moves white King at (6, 2) to (5, 2)
-Move 370, turn: black
-Black moves black King at (7, 5) to (6, 5)
-Move 371, turn: white
-White moves white King at (5, 2) to (6, 3)
-Move 372, turn: black
-Black moves black King at (6, 5) to (7, 6)
-Move 373, turn: white
-White moves white King at (6, 3) to (7, 3)
-Move 374, turn: black
-Black moves black King at (7, 6) to (7, 5)
-Move 375, turn: white
-White moves white King at (7, 3) to (6, 2)
-Move 376, turn: black
-Black moves black King at (7, 5) to (6, 4)
-Move 377, turn: white
-White moves white King at (6, 2) to (6, 1)
-Move 378, turn: black
-Black moves black King at (6, 4) to (5, 3)
-Move 379, turn: white
-White moves white King at (6, 1) to (5, 0)
-Move 380, turn: black
-Black moves black King at (5, 3) to (6, 3)
-Move 381, turn: white
-White moves white King at (5, 0) to (4, 0)
-Move 382, turn: black
-Black moves black King at (6, 3) to (7, 4)
-Move 383, turn: white
-White moves white King at (4, 0) to (3, 1)
-Move 384, turn: black
-Black moves black King at (7, 4) to (6, 5)
-Move 385, turn: white
-White moves white King at (3, 1) to (3, 2)
-Move 386, turn: black
-Black moves black King at (6, 5) to (6, 6)
-Move 387, turn: white
-White moves white King at (3, 2) to (2, 1)
-Move 388, turn: black
-Black moves black King at (6, 6) to (7, 5)
-Move 389, turn: white
-White moves white King at (2, 1) to (1, 1)
-Move 390, turn: black
-Black moves black King at (7, 5) to (6, 4)
-Move 391, turn: white
-White moves white King at (1, 1) to (1, 0)
-Move 392, turn: black
-Black moves black King at (6, 4) to (5, 4)
-Move 393, turn: white
-White moves white King at (1, 0) to (2, 1)
-Move 394, turn: black
-Black moves black King at (5, 4) to (4, 3)
-Move 395, turn: white
-White moves white King at (2, 1) to (3, 1)
-Move 396, turn: black
-Black moves black King at (4, 3) to (3, 4)
-Move 397, turn: white
-White moves white King at (3, 1) to (2, 1)
-Move 398, turn: black
-Black moves black King at (3, 4) to (2, 3)
-Move 399, turn: white
-White moves white King at (2, 1) to (3, 1)
-Move 400, turn: black
-Black moves black King at (2, 3) to (2, 4)
-Move 401, turn: white
-White moves white King at (3, 1) to (4, 0)
-Move 402, turn: black
-Black moves black King at (2, 4) to (2, 5)
-Move 403, turn: white
-White moves white King at (4, 0) to (4, 1)
-Move 404, turn: black
-Black moves black King at (2, 5) to (1, 5)
-Move 405, turn: white
-White moves white King at (4, 1) to (5, 1)
-Move 406, turn: black
-Black moves black King at (1, 5) to (2, 4)
-Move 407, turn: white
-White moves white King at (5, 1) to (6, 2)
-Move 408, turn: black
-Black moves black King at (2, 4) to (2, 5)
-Move 409, turn: white
-White moves white King at (6, 2) to (6, 3)
-Move 410, turn: black
-Black moves black King at (2, 5) to (1, 4)
-Move 411, turn: white
-White moves white King at (6, 3) to (7, 4)
-Move 412, turn: black
-Black moves black King at (1, 4) to (0, 5)
-Move 413, turn: white
-White moves white King at (7, 4) to (6, 3)
-Move 414, turn: black
-Black moves black King at (0, 5) to (1, 6)
-Move 415, turn: white
-White moves white King at (6, 3) to (7, 4)
-Move 416, turn: black
-Black moves black King at (1, 6) to (1, 7)
-Move 417, turn: white
-White moves white King at (7, 4) to (6, 3)
-Move 418, turn: black
-Black moves black King at (1, 7) to (2, 7)
-Move 419, turn: white
-White moves white King at (6, 3) to (6, 2)
-Move 420, turn: black
-Black moves black King at (2, 7) to (1, 7)
-Move 421, turn: white
-White moves white King at (6, 2) to (5, 2)
-Move 422, turn: black
-Black moves black King at (1, 7) to (2, 7)
-Move 423, turn: white
-White moves white King at (5, 2) to (6, 2)
-Move 424, turn: black
-Black moves black King at (2, 7) to (1, 7)
-Move 425, turn: white
-White moves white King at (6, 2) to (5, 2)
-Move 426, turn: black
-Black moves black King at (1, 7) to (0, 6)
-Move 427, turn: white
-White moves white King at (5, 2) to (6, 3)
-Move 428, turn: black
-Black moves black King at (0, 6) to (1, 5)
-Move 429, turn: white
-White moves white King at (6, 3) to (5, 4)
-Move 430, turn: black
-Black moves black King at (1, 5) to (0, 6)
-Move 431, turn: white
-White moves white King at (5, 4) to (6, 4)
-Move 432, turn: black
-Black moves black King at (0, 6) to (1, 7)
-Move 433, turn: white
-White moves white King at (6, 4) to (7, 5)
-Move 434, turn: black
+Move 50, turn: black
+Black moves black Pawn at (3, 7) to (4, 7)
+Move 51, turn: white
+White moves white Knight at (5, 5) to (4, 7)
+Move 52, turn: black
 Black moves black King at (1, 7) to (1, 6)
-Move 435, turn: white
-White moves white King at (7, 5) to (6, 6)
-Move 436, turn: black
+Move 53, turn: white
+White moves white Knight at (4, 7) to (5, 5)
+Move 54, turn: black
 Black moves black King at (1, 6) to (0, 7)
-Move 437, turn: white
-White moves white King at (6, 6) to (5, 7)
-Move 438, turn: black
+Move 55, turn: white
+White moves white Pawn at (6, 6) to (4, 6)
+Move 56, turn: black
+Black moves black King at (0, 7) to (1, 7)
+Move 57, turn: white
+White moves white Knight at (5, 5) to (3, 4)
+Move 58, turn: black
+Black moves black King at (1, 7) to (0, 7)
+Move 59, turn: white
+White moves white Knight at (3, 1) to (2, 3)
+Move 60, turn: black
 Black moves black King at (0, 7) to (1, 6)
-Move 439, turn: white
-White moves white King at (5, 7) to (6, 6)
-Move 440, turn: black
-Black moves black King at (1, 6) to (1, 5)
-Move 441, turn: white
-White moves white King at (6, 6) to (6, 5)
-Move 442, turn: black
-Black moves black King at (1, 5) to (1, 6)
-Move 443, turn: white
-White moves white King at (6, 5) to (6, 6)
-Move 444, turn: black
-Black moves black King at (1, 6) to (2, 5)
-Move 445, turn: white
-White moves white King at (6, 6) to (7, 5)
-Move 446, turn: black
-Black moves black King at (2, 5) to (1, 5)
-Move 447, turn: white
-White moves white King at (7, 5) to (7, 4)
-Move 448, turn: black
-Black moves black King at (1, 5) to (0, 6)
-Move 449, turn: white
-White moves white King at (7, 4) to (6, 4)
-Move 450, turn: black
-Black moves black King at (0, 6) to (1, 6)
-Move 451, turn: white
-White moves white King at (6, 4) to (7, 3)
-Move 452, turn: black
+Move 61, turn: white
+White moves white Knight at (2, 3) to (4, 4)
+Move 62, turn: black
 Black moves black King at (1, 6) to (0, 7)
-Move 453, turn: white
-White moves white King at (7, 3) to (7, 2)
-Move 454, turn: black
+Move 63, turn: white
+White moves white Pawn at (4, 6) to (3, 6)
+Move 64, turn: black
 Black moves black King at (0, 7) to (1, 6)
-Move 455, turn: white
-White moves white King at (7, 2) to (6, 2)
-Move 456, turn: black
-Black moves black King at (1, 6) to (2, 5)
-Move 457, turn: white
-White moves white King at (6, 2) to (7, 1)
-Move 458, turn: black
-Black moves black King at (2, 5) to (1, 6)
-Move 459, turn: white
-White moves white King at (7, 1) to (7, 2)
-Move 460, turn: black
-Black moves black King at (1, 6) to (2, 6)
-Move 461, turn: white
-White moves white King at (7, 2) to (6, 1)
-Move 462, turn: black
-Black moves black King at (2, 6) to (3, 5)
-Move 463, turn: white
-White moves white King at (6, 1) to (7, 2)
-Move 464, turn: black
-Black moves black King at (3, 5) to (3, 6)
-Move 465, turn: white
-White moves white King at (7, 2) to (6, 3)
-Move 466, turn: black
-Black moves black King at (3, 6) to (3, 5)
-Move 467, turn: white
-White moves white King at (6, 3) to (7, 4)
-Move 468, turn: black
-Black moves black King at (3, 5) to (2, 4)
-Move 469, turn: white
-White moves white King at (7, 4) to (6, 5)
-Move 470, turn: black
-Black moves black King at (2, 4) to (1, 4)
-Move 471, turn: white
-White moves white King at (6, 5) to (5, 5)
-Move 472, turn: black
-Black moves black King at (1, 4) to (0, 3)
-Move 473, turn: white
-White moves white King at (5, 5) to (4, 4)
-Move 474, turn: black
-Black moves black King at (0, 3) to (0, 4)
-Move 475, turn: white
-White moves white King at (4, 4) to (3, 4)
-Move 476, turn: black
-Black moves black King at (0, 4) to (0, 5)
-Move 477, turn: white
-White moves white King at (3, 4) to (2, 5)
-Move 478, turn: black
-Black moves black King at (0, 5) to (0, 4)
-Move 479, turn: white
-White moves white King at (2, 5) to (2, 6)
-Move 480, turn: black
-Black moves black King at (0, 4) to (0, 5)
-Move 481, turn: white
-White moves white King at (2, 6) to (3, 7)
-Move 482, turn: black
-Black moves black King at (0, 5) to (1, 4)
-Move 483, turn: white
-White moves white King at (3, 7) to (2, 7)
-Move 484, turn: black
-Black moves black King at (1, 4) to (2, 3)
-Move 485, turn: white
-White moves white King at (2, 7) to (1, 6)
-Move 486, turn: black
-Black moves black King at (2, 3) to (1, 3)
-Move 487, turn: white
-White moves white King at (1, 6) to (0, 7)
-Move 488, turn: black
-Black moves black King at (1, 3) to (2, 3)
-Move 489, turn: white
-White moves white King at (0, 7) to (1, 6)
-Move 490, turn: black
-Black moves black King at (2, 3) to (3, 3)
-Move 491, turn: white
-White moves white King at (1, 6) to (0, 6)
-Move 492, turn: black
-Black moves black King at (3, 3) to (4, 2)
-Move 493, turn: white
-White moves white King at (0, 6) to (0, 5)
-Move 494, turn: black
-Black moves black King at (4, 2) to (5, 2)
-Move 495, turn: white
-White moves white King at (0, 5) to (1, 6)
-Move 496, turn: black
-Black moves black King at (5, 2) to (6, 1)
-Move 497, turn: white
-White moves white King at (1, 6) to (2, 7)
-Move 498, turn: black
-Black moves black King at (6, 1) to (5, 0)
-Move 499, turn: white
-White moves white King at (2, 7) to (2, 6)
-Move 500, turn: black
-Black moves black King at (5, 0) to (6, 0)
-Move 501, turn: white
-White moves white King at (2, 6) to (3, 7)
-Move 502, turn: black
-Black moves black King at (6, 0) to (5, 0)
-Move 503, turn: white
-White moves white King at (3, 7) to (3, 6)
-Move 504, turn: black
-Black moves black King at (5, 0) to (5, 1)
-Move 505, turn: white
-White moves white King at (3, 6) to (2, 6)
-Move 506, turn: black
-Black moves black King at (5, 1) to (4, 0)
-Move 507, turn: white
-White moves white King at (2, 6) to (2, 5)
-Move 508, turn: black
-Black moves black King at (4, 0) to (3, 1)
-Move 509, turn: white
-White moves white King at (2, 5) to (1, 4)
-Move 510, turn: black
-Black moves black King at (3, 1) to (2, 0)
-Move 511, turn: white
-White moves white King at (1, 4) to (2, 4)
-Move 512, turn: black
-Black moves black King at (2, 0) to (1, 1)
-Move 513, turn: white
-White moves white King at (2, 4) to (3, 5)
-Move 514, turn: black
-Black moves black King at (1, 1) to (2, 2)
-Move 515, turn: white
-White moves white King at (3, 5) to (2, 6)
-Move 516, turn: black
-Black moves black King at (2, 2) to (2, 3)
-Move 517, turn: white
-White moves white King at (2, 6) to (3, 6)
-Move 518, turn: black
-Black moves black King at (2, 3) to (3, 4)
-Move 519, turn: white
-White moves white King at (3, 6) to (4, 6)
-Move 520, turn: black
-Black moves black King at (3, 4) to (2, 4)
-Move 521, turn: white
-White moves white King at (4, 6) to (4, 5)
-Move 522, turn: black
-Black moves black King at (2, 4) to (1, 5)
-Move 523, turn: white
-White moves white King at (4, 5) to (5, 5)
-Move 524, turn: black
-Black moves black King at (1, 5) to (0, 6)
-Move 525, turn: white
-White moves white King at (5, 5) to (6, 6)
-Move 526, turn: black
-Black moves black King at (0, 6) to (1, 5)
-Move 527, turn: white
-White moves white King at (6, 6) to (5, 5)
-Move 528, turn: black
-Black moves black King at (1, 5) to (2, 4)
-Move 529, turn: white
-White moves white King at (5, 5) to (4, 6)
-Move 530, turn: black
-Black moves black King at (2, 4) to (2, 5)
-Move 531, turn: white
-White moves white King at (4, 6) to (5, 7)
-Move 532, turn: black
-Black moves black King at (2, 5) to (3, 5)
-Move 533, turn: white
-White moves white King at (5, 7) to (5, 6)
-Move 534, turn: black
-Black moves black King at (3, 5) to (2, 6)
-Move 535, turn: white
-White moves white King at (5, 6) to (4, 6)
-Move 536, turn: black
-Black moves black King at (2, 6) to (1, 5)
-Move 537, turn: white
-White moves white King at (4, 6) to (3, 6)
-Move 538, turn: black
-Black moves black King at (1, 5) to (1, 6)
-Move 539, turn: white
-White moves white King at (3, 6) to (4, 7)
-Move 540, turn: black
-Black moves black King at (1, 6) to (2, 6)
-Move 541, turn: white
-White moves white King at (4, 7) to (5, 7)
-Move 542, turn: black
-Black moves black King at (2, 6) to (3, 6)
-Move 543, turn: white
-White moves white King at (5, 7) to (6, 7)
-Move 544, turn: black
-Black moves black King at (3, 6) to (4, 7)
-Move 545, turn: white
-White moves white King at (6, 7) to (7, 6)
-Move 546, turn: black
-Black moves black King at (4, 7) to (5, 6)
-Move 547, turn: white
-White moves white King at (7, 6) to (7, 7)
-Move 548, turn: black
-Black moves black King at (5, 6) to (4, 6)
-Move 549, turn: white
-White moves white King at (7, 7) to (6, 6)
-Move 550, turn: black
-Black moves black King at (4, 6) to (4, 5)
-Move 551, turn: white
-White moves white King at (6, 6) to (7, 7)
-Move 552, turn: black
-Black moves black King at (4, 5) to (3, 6)
-Move 553, turn: white
-White moves white King at (7, 7) to (6, 7)
-Move 554, turn: black
-Black moves black King at (3, 6) to (2, 6)
-Move 555, turn: white
-White moves white King at (6, 7) to (5, 7)
-Move 556, turn: black
-Black moves black King at (2, 6) to (1, 5)
-Move 557, turn: white
-White moves white King at (5, 7) to (6, 6)
-Move 558, turn: black
-Black moves black King at (1, 5) to (0, 6)
-Move 559, turn: white
-White moves white King at (6, 6) to (7, 5)
-Move 560, turn: black
-Black moves black King at (0, 6) to (0, 5)
-Move 561, turn: white
-White moves white King at (7, 5) to (7, 4)
-Move 562, turn: black
-Black moves black King at (0, 5) to (0, 6)
-Move 563, turn: white
-White moves white King at (7, 4) to (6, 4)
-Move 564, turn: black
-Black moves black King at (0, 6) to (0, 5)
-Move 565, turn: white
-White moves white King at (6, 4) to (6, 5)
-Move 566, turn: black
-Black moves black King at (0, 5) to (0, 4)
-Move 567, turn: white
-White moves white King at (6, 5) to (5, 6)
-Move 568, turn: black
-Black moves black King at (0, 4) to (0, 5)
-Move 569, turn: white
-White moves white King at (5, 6) to (4, 5)
-Move 570, turn: black
-Black moves black King at (0, 5) to (0, 6)
-Move 571, turn: white
-White moves white King at (4, 5) to (4, 6)
-Move 572, turn: black
-Black moves black King at (0, 6) to (0, 7)
-Move 573, turn: white
-White moves white King at (4, 6) to (4, 7)
-Move 574, turn: black
-Black moves black King at (0, 7) to (0, 6)
-Move 575, turn: white
-White moves white King at (4, 7) to (4, 6)
-Move 576, turn: black
-Black moves black King at (0, 6) to (0, 7)
-Move 577, turn: white
-White moves white King at (4, 6) to (5, 6)
-Move 578, turn: black
-Black moves black King at (0, 7) to (0, 6)
-Move 579, turn: white
-White moves white King at (5, 6) to (4, 6)
-Move 580, turn: black
-Black moves black King at (0, 6) to (0, 5)
-Move 581, turn: white
-White moves white King at (4, 6) to (4, 7)
-Move 582, turn: black
-Black moves black King at (0, 5) to (1, 4)
-Move 583, turn: white
-White moves white King at (4, 7) to (5, 7)
-Move 584, turn: black
-Black moves black King at (1, 4) to (0, 4)
-Move 585, turn: white
-White moves white King at (5, 7) to (6, 6)
-Move 586, turn: black
-Black moves black King at (0, 4) to (0, 5)
-Move 587, turn: white
-White moves white King at (6, 6) to (7, 5)
-Move 588, turn: black
-Black moves black King at (0, 5) to (0, 6)
-Move 589, turn: white
-White moves white King at (7, 5) to (6, 4)
-Move 590, turn: black
-Black moves black King at (0, 6) to (1, 7)
-Move 591, turn: white
-White moves white King at (6, 4) to (7, 3)
-Move 592, turn: black
+Move 65, turn: white
+White moves white Pawn at (3, 6) to (2, 6)
+Move 66, turn: black
+Black moves black King at (1, 6) to (0, 7)
+Move 67, turn: white
+White moves white Pawn at (2, 6) to (1, 6)
+Move 68, turn: black
+Black moves black King at (0, 7) to (1, 7)
+Move 69, turn: white
+White moves white Pawn at (4, 3) to (3, 3)
+Move 70, turn: black
+Black moves black King at (1, 7) to (2, 7)
+Move 71, turn: white
+White moves white Pawn at (3, 3) to (2, 3)
+Move 72, turn: black
+Black moves black King at (2, 7) to (1, 7)
+Move 73, turn: white
+White moves white Pawn at (2, 3) to (1, 3)
+Move 74, turn: black
 Black moves black King at (1, 7) to (1, 6)
-Move 593, turn: white
-White moves white King at (7, 3) to (7, 2)
-Move 594, turn: black
-Black moves black King at (1, 6) to (0, 6)
-Move 595, turn: white
-White moves white King at (7, 2) to (6, 3)
-Move 596, turn: black
-Black moves black King at (0, 6) to (0, 7)
-Move 597, turn: white
-White moves white King at (6, 3) to (5, 4)
-Move 598, turn: black
-Black moves black King at (0, 7) to (0, 6)
-Move 599, turn: white
-White moves white King at (5, 4) to (6, 4)
-Move 600, turn: black
-Black moves black King at (0, 6) to (1, 6)
-Move 601, turn: white
-White moves white King at (6, 4) to (7, 5)
-Move 602, turn: black
-Black moves black King at (1, 6) to (2, 6)
-Move 603, turn: white
-White moves white King at (7, 5) to (6, 5)
-Move 604, turn: black
-Black moves black King at (2, 6) to (3, 6)
-Move 605, turn: white
-White moves white King at (6, 5) to (5, 5)
-Move 606, turn: black
-Black moves black King at (3, 6) to (2, 7)
-Move 607, turn: white
-White moves white King at (5, 5) to (6, 5)
-Move 608, turn: black
-Black moves black King at (2, 7) to (3, 6)
-Move 609, turn: white
-White moves white King at (6, 5) to (5, 5)
-Move 610, turn: black
-Black moves black King at (3, 6) to (3, 5)
-Move 611, turn: white
-White moves white King at (5, 5) to (6, 4)
-Move 612, turn: black
-Black moves black King at (3, 5) to (4, 6)
-Move 613, turn: white
-White moves white King at (6, 4) to (7, 5)
-Move 614, turn: black
-Black moves black King at (4, 6) to (3, 5)
-Move 615, turn: white
-White moves white King at (7, 5) to (6, 5)
-Move 616, turn: black
-Black moves black King at (3, 5) to (4, 5)
-Move 617, turn: white
-White moves white King at (6, 5) to (7, 6)
-Move 618, turn: black
-Black moves black King at (4, 5) to (5, 6)
-Move 619, turn: white
-White moves white King at (7, 6) to (7, 5)
-Move 620, turn: black
-Black moves black King at (5, 6) to (6, 7)
-Move 621, turn: white
-White moves white King at (7, 5) to (6, 5)
-Move 622, turn: black
-Black moves black King at (6, 7) to (7, 7)
-Move 623, turn: white
-White moves white King at (6, 5) to (6, 4)
-Move 624, turn: black
-Black moves black King at (7, 7) to (6, 7)
-Move 625, turn: white
-White moves white King at (6, 4) to (6, 5)
-Move 626, turn: black
-Black moves black King at (6, 7) to (7, 7)
-Move 627, turn: white
-White moves white King at (6, 5) to (6, 4)
-Move 628, turn: black
-Black moves black King at (7, 7) to (7, 6)
-Move 629, turn: white
-White moves white King at (6, 4) to (7, 3)
-Move 630, turn: black
-Black moves black King at (7, 6) to (6, 7)
-Move 631, turn: white
-White moves white King at (7, 3) to (7, 2)
-Move 632, turn: black
-Black moves black King at (6, 7) to (5, 6)
-Move 633, turn: white
-White moves white King at (7, 2) to (6, 2)
-Move 634, turn: black
-Black moves black King at (5, 6) to (5, 5)
-Move 635, turn: white
-White moves white King at (6, 2) to (7, 2)
-Move 636, turn: black
-Black moves black King at (5, 5) to (4, 5)
-Move 637, turn: white
-White moves white King at (7, 2) to (7, 3)
-Move 638, turn: black
-Black moves black King at (4, 5) to (5, 4)
-Move 639, turn: white
-White moves white King at (7, 3) to (6, 2)
-Move 640, turn: black
-Black moves black King at (5, 4) to (4, 3)
-Move 641, turn: white
-White moves white King at (6, 2) to (7, 1)
-Move 642, turn: black
-Black moves black King at (4, 3) to (5, 2)
-Move 643, turn: white
-White moves white King at (7, 1) to (7, 2)
-Move 644, turn: black
-Black moves black King at (5, 2) to (4, 1)
-Move 645, turn: white
-White moves white King at (7, 2) to (6, 2)
-Move 646, turn: black
-Black moves black King at (4, 1) to (3, 1)
-Move 647, turn: white
-White moves white King at (6, 2) to (7, 1)
-Move 648, turn: black
-Black moves black King at (3, 1) to (3, 2)
-Move 649, turn: white
-White moves white King at (7, 1) to (7, 0)
-Move 650, turn: black
-Black moves black King at (3, 2) to (3, 1)
-Move 651, turn: white
-White moves white King at (7, 0) to (7, 1)
-Move 652, turn: black
-Black moves black King at (3, 1) to (4, 0)
-Move 653, turn: white
-White moves white King at (7, 1) to (6, 1)
-Move 654, turn: black
-Black moves black King at (4, 0) to (3, 0)
-Move 655, turn: white
-White moves white King at (6, 1) to (5, 0)
-Move 656, turn: black
-Black moves black King at (3, 0) to (3, 1)
-Move 657, turn: white
-White moves white King at (5, 0) to (6, 0)
-Move 658, turn: black
-Black moves black King at (3, 1) to (4, 1)
-Move 659, turn: white
-White moves white King at (6, 0) to (6, 1)
-Move 660, turn: black
-Black moves black King at (4, 1) to (3, 1)
-Move 661, turn: white
-White moves white King at (6, 1) to (6, 0)
-Move 662, turn: black
-Black moves black King at (3, 1) to (4, 2)
-Move 663, turn: white
-White moves white King at (6, 0) to (7, 1)
-Move 664, turn: black
-Black moves black King at (4, 2) to (4, 1)
-Move 665, turn: white
-White moves white King at (7, 1) to (6, 1)
-Move 666, turn: black
-Black moves black King at (4, 1) to (3, 1)
-Move 667, turn: white
-White moves white King at (6, 1) to (7, 1)
-Move 668, turn: black
-Black moves black King at (3, 1) to (2, 1)
-Move 669, turn: white
-White moves white King at (7, 1) to (7, 0)
-Move 670, turn: black
-Black moves black King at (2, 1) to (1, 0)
-Move 671, turn: white
-White moves white King at (7, 0) to (6, 1)
-Move 672, turn: black
-Black moves black King at (1, 0) to (2, 0)
-Move 673, turn: white
-White moves white King at (6, 1) to (7, 2)
-Move 674, turn: black
-Black moves black King at (2, 0) to (1, 1)
-Move 675, turn: white
-White moves white King at (7, 2) to (7, 3)
-Move 676, turn: black
-Black moves black King at (1, 1) to (2, 1)
-Move 677, turn: white
-White moves white King at (7, 3) to (7, 4)
-Move 678, turn: black
-Black moves black King at (2, 1) to (1, 1)
-Move 679, turn: white
-White moves white King at (7, 4) to (7, 5)
-Move 680, turn: black
-Black moves black King at (1, 1) to (0, 2)
-Move 681, turn: white
-White moves white King at (7, 5) to (6, 5)
-Move 682, turn: black
-Black moves black King at (0, 2) to (0, 3)
-Move 683, turn: white
-White moves white King at (6, 5) to (7, 5)
-Move 684, turn: black
-Black moves black King at (0, 3) to (1, 2)
-Move 685, turn: white
-White moves white King at (7, 5) to (6, 4)
-Move 686, turn: black
-Black moves black King at (1, 2) to (1, 3)
-Move 687, turn: white
-White moves white King at (6, 4) to (6, 5)
-Move 688, turn: black
-Black moves black King at (1, 3) to (1, 4)
-Move 689, turn: white
-White moves white King at (6, 5) to (6, 4)
-Move 690, turn: black
+Move 75, turn: white
+White moves white King at (7, 4) to (7, 3)
+Move 76, turn: black
+Black moves black King at (1, 6) to (0, 7)
+Move 77, turn: white
+White moves white Rook at (7, 7) to (7, 4)
+Move 78, turn: black
+Black moves black King at (0, 7) to (1, 6)
+Move 79, turn: white
+White moves white Rook at (7, 4) to (6, 4)
+Move 80, turn: black
+Black moves black King at (1, 6) to (2, 7)
+Move 81, turn: white
+White moves white Rook at (6, 4) to (6, 6)
+Move 82, turn: black
+Black moves black King at (2, 7) to (3, 7)
+Move 83, turn: white
+White moves white Rook at (6, 6) to (6, 2)
+Move 84, turn: black
+Black moves black King at (3, 7) to (2, 7)
+Move 85, turn: white
+White moves white Rook at (7, 0) to (7, 2)
+Move 86, turn: black
+Black moves black King at (2, 7) to (1, 6)
+Move 87, turn: white
+White moves white Rook at (6, 2) to (6, 6)
+Move 88, turn: black
+Black moves black King at (1, 6) to (0, 5)
+Move 89, turn: white
+White moves white Rook at (6, 6) to (6, 5)
+Move 90, turn: black
+Black moves black King at (0, 5) to (1, 4)
+Move 91, turn: white
+White moves white Pawn at (5, 2) to (4, 2)
+Move 92, turn: black
 Black moves black King at (1, 4) to (2, 4)
-Move 691, turn: white
-White moves white King at (6, 4) to (5, 5)
-Move 692, turn: black
-Black moves black King at (2, 4) to (3, 3)
-Move 693, turn: white
-White moves white King at (5, 5) to (6, 4)
-Move 694, turn: black
-Black moves black King at (3, 3) to (2, 2)
-Move 695, turn: white
-White moves white King at (6, 4) to (5, 3)
-Move 696, turn: black
-Black moves black King at (2, 2) to (2, 1)
-Move 697, turn: white
-White moves white King at (5, 3) to (6, 4)
-Move 698, turn: black
-Black moves black King at (2, 1) to (3, 0)
-Move 699, turn: white
-White moves white King at (6, 4) to (7, 3)
-Move 700, turn: black
-Black moves black King at (3, 0) to (3, 1)
-Move 701, turn: white
-White moves white King at (7, 3) to (6, 3)
-Move 702, turn: black
-Black moves black King at (3, 1) to (2, 2)
-Move 703, turn: white
-White moves white King at (6, 3) to (6, 4)
-Move 704, turn: black
-Black moves black King at (2, 2) to (1, 1)
-Move 705, turn: white
-White moves white King at (6, 4) to (7, 4)
-Move 706, turn: black
-Black moves black King at (1, 1) to (0, 2)
-Move 707, turn: white
-White moves white King at (7, 4) to (6, 5)
-Move 708, turn: black
-Black moves black King at (0, 2) to (1, 3)
-Move 709, turn: white
-White moves white King at (6, 5) to (6, 4)
-Move 710, turn: black
-Black moves black King at (1, 3) to (0, 3)
-Move 711, turn: white
-White moves white King at (6, 4) to (5, 4)
-Move 712, turn: black
-Black moves black King at (0, 3) to (1, 2)
-Move 713, turn: white
-White moves white King at (5, 4) to (6, 3)
-Move 714, turn: black
-Black moves black King at (1, 2) to (2, 2)
-Move 715, turn: white
-White moves white King at (6, 3) to (7, 3)
-Move 716, turn: black
-Black moves black King at (2, 2) to (1, 2)
-Move 717, turn: white
+Move 93, turn: white
 White moves white King at (7, 3) to (7, 4)
-Move 718, turn: black
-Black moves black King at (1, 2) to (0, 3)
-Move 719, turn: white
-White moves white King at (7, 4) to (6, 3)
-Move 720, turn: black
-Black moves black King at (0, 3) to (1, 2)
-Move 721, turn: white
-White moves white King at (6, 3) to (6, 2)
-Move 722, turn: black
-Black moves black King at (1, 2) to (2, 2)
-Move 723, turn: white
-White moves white King at (6, 2) to (6, 1)
-Move 724, turn: black
-Black moves black King at (2, 2) to (1, 3)
-Move 725, turn: white
-White moves white King at (6, 1) to (7, 2)
-Move 726, turn: black
-Black moves black King at (1, 3) to (2, 3)
-Move 727, turn: white
-White moves white King at (7, 2) to (7, 1)
-Move 728, turn: black
-Black moves black King at (2, 3) to (3, 3)
-Move 729, turn: white
-White moves white King at (7, 1) to (6, 2)
-Move 730, turn: black
-Black moves black King at (3, 3) to (4, 4)
-Move 731, turn: white
-White moves white King at (6, 2) to (5, 1)
-Move 732, turn: black
-Black moves black King at (4, 4) to (3, 5)
-Move 733, turn: white
-White moves white King at (5, 1) to (6, 1)
-Move 734, turn: black
-Black moves black King at (3, 5) to (4, 4)
-Move 735, turn: white
-White moves white King at (6, 1) to (7, 0)
-Move 736, turn: black
-Black moves black King at (4, 4) to (3, 5)
-Move 737, turn: white
-White moves white King at (7, 0) to (7, 1)
-Move 738, turn: black
-Black moves black King at (3, 5) to (4, 6)
-Move 739, turn: white
-White moves white King at (7, 1) to (7, 2)
-Move 740, turn: black
-Black moves black King at (4, 6) to (3, 6)
-Move 741, turn: white
-White moves white King at (7, 2) to (6, 3)
-Move 742, turn: black
-Black moves black King at (3, 6) to (3, 5)
-Move 743, turn: white
-White moves white King at (6, 3) to (5, 3)
-Move 744, turn: black
-Black moves black King at (3, 5) to (4, 5)
-Move 745, turn: white
-White moves white King at (5, 3) to (6, 3)
-Move 746, turn: black
-Black moves black King at (4, 5) to (5, 6)
-Move 747, turn: white
-White moves white King at (6, 3) to (6, 4)
-Move 748, turn: black
-Black moves black King at (5, 6) to (6, 6)
-Move 749, turn: white
-White moves white King at (6, 4) to (7, 3)
-Move 750, turn: black
-Black moves black King at (6, 6) to (6, 5)
-Move 751, turn: white
-White moves white King at (7, 3) to (6, 3)
-Move 752, turn: black
-Black moves black King at (6, 5) to (5, 6)
-Move 753, turn: white
-White moves white King at (6, 3) to (5, 3)
-Move 754, turn: black
-Black moves black King at (5, 6) to (4, 6)
-Move 755, turn: white
-White moves white King at (5, 3) to (5, 2)
-Move 756, turn: black
-Black moves black King at (4, 6) to (4, 5)
-Move 757, turn: white
-White moves white King at (5, 2) to (6, 3)
-Move 758, turn: black
-Black moves black King at (4, 5) to (4, 6)
-Move 759, turn: white
-White moves white King at (6, 3) to (5, 4)
-Move 760, turn: black
-Black moves black King at (4, 6) to (3, 5)
-Move 761, turn: white
-White moves white King at (5, 4) to (6, 5)
-Move 762, turn: black
-Black moves black King at (3, 5) to (3, 4)
-Move 763, turn: white
-White moves white King at (6, 5) to (7, 5)
-Move 764, turn: black
-Black moves black King at (3, 4) to (2, 3)
-Move 765, turn: white
-White moves white King at (7, 5) to (6, 5)
-Move 766, turn: black
-Black moves black King at (2, 3) to (3, 2)
-Move 767, turn: white
-White moves white King at (6, 5) to (7, 4)
-Move 768, turn: black
-Black moves black King at (3, 2) to (2, 1)
-Move 769, turn: white
-White moves white King at (7, 4) to (7, 5)
-Move 770, turn: black
-Black moves black King at (2, 1) to (2, 0)
-Move 771, turn: white
-White moves white King at (7, 5) to (6, 5)
-Move 772, turn: black
-Black moves black King at (2, 0) to (1, 1)
-Move 773, turn: white
-White moves white King at (6, 5) to (7, 5)
-Move 774, turn: black
-Black moves black King at (1, 1) to (2, 0)
-Move 775, turn: white
-White moves white King at (7, 5) to (6, 6)
-Move 776, turn: black
-Black moves black King at (2, 0) to (1, 1)
-Move 777, turn: white
-White moves white King at (6, 6) to (5, 5)
-Move 778, turn: black
-Black moves black King at (1, 1) to (0, 2)
-Move 779, turn: white
-White moves white King at (5, 5) to (6, 5)
-Move 780, turn: black
-Black moves black King at (0, 2) to (0, 3)
-Move 781, turn: white
-White moves white King at (6, 5) to (7, 5)
-Move 782, turn: black
-Black moves black King at (0, 3) to (0, 2)
-Move 783, turn: white
-White moves white King at (7, 5) to (7, 6)
-Move 784, turn: black
-Black moves black King at (0, 2) to (1, 2)
-Move 785, turn: white
-White moves white King at (7, 6) to (7, 7)
-Move 786, turn: black
-Black moves black King at (1, 2) to (2, 2)
-Move 787, turn: white
-White moves white King at (7, 7) to (6, 6)
-Move 788, turn: black
-Black moves black King at (2, 2) to (3, 3)
-Move 789, turn: white
-White moves white King at (6, 6) to (6, 7)
-Move 790, turn: black
-Black moves black King at (3, 3) to (2, 2)
-Move 791, turn: white
-White moves white King at (6, 7) to (6, 6)
-Move 792, turn: black
-Black moves black King at (2, 2) to (3, 1)
-Move 793, turn: white
-White moves white King at (6, 6) to (7, 5)
-Move 794, turn: black
-Black moves black King at (3, 1) to (4, 1)
-Move 795, turn: white
-White moves white King at (7, 5) to (6, 4)
-Move 796, turn: black
-Black moves black King at (4, 1) to (5, 0)
-Move 797, turn: white
-White moves white King at (6, 4) to (7, 4)
-Move 798, turn: black
-Black moves black King at (5, 0) to (6, 1)
-Move 799, turn: white
-White moves white King at (7, 4) to (6, 3)
-Move 800, turn: black
-Black moves black King at (6, 1) to (7, 0)
-Move 801, turn: white
-White moves white King at (6, 3) to (5, 2)
-Move 802, turn: black
-Black moves black King at (7, 0) to (7, 1)
-Move 803, turn: white
-White moves white King at (5, 2) to (4, 1)
-Move 804, turn: black
-Black moves black King at (7, 1) to (6, 0)
-Move 805, turn: white
-White moves white King at (4, 1) to (5, 2)
-Move 806, turn: black
-Black moves black King at (6, 0) to (7, 0)
-Move 807, turn: white
-White moves white King at (5, 2) to (4, 2)
-Move 808, turn: black
-Black moves black King at (7, 0) to (6, 0)
-Move 809, turn: white
-White moves white King at (4, 2) to (5, 3)
-Move 810, turn: black
-Black moves black King at (6, 0) to (7, 0)
-Move 811, turn: white
-White moves white King at (5, 3) to (4, 2)
-Move 812, turn: black
-Black moves black King at (7, 0) to (6, 1)
-Move 813, turn: white
-White moves white King at (4, 2) to (3, 1)
-Move 814, turn: black
-Black moves black King at (6, 1) to (7, 0)
-Move 815, turn: white
-White moves white King at (3, 1) to (3, 2)
-Move 816, turn: black
-Black moves black King at (7, 0) to (6, 1)
-Move 817, turn: white
-White moves white King at (3, 2) to (4, 3)
-Move 818, turn: black
-Black moves black King at (6, 1) to (5, 0)
-Move 819, turn: white
-White moves white King at (4, 3) to (5, 4)
-Move 820, turn: black
-Black moves black King at (5, 0) to (5, 1)
-Move 821, turn: white
-White moves white King at (5, 4) to (6, 3)
-Move 822, turn: black
-Black moves black King at (5, 1) to (6, 1)
-Move 823, turn: white
-White moves white King at (6, 3) to (5, 4)
-Move 824, turn: black
-Black moves black King at (6, 1) to (7, 2)
-Move 825, turn: white
-White moves white King at (5, 4) to (5, 5)
-Move 826, turn: black
-Black moves black King at (7, 2) to (6, 1)
-Move 827, turn: white
-White moves white King at (5, 5) to (4, 6)
-Move 828, turn: black
-Black moves black King at (6, 1) to (7, 0)
-Move 829, turn: white
-White moves white King at (4, 6) to (3, 6)
-Move 830, turn: black
-Black moves black King at (7, 0) to (6, 0)
-Move 831, turn: white
-White moves white King at (3, 6) to (4, 7)
-Move 832, turn: black
-Black moves black King at (6, 0) to (5, 0)
-Move 833, turn: white
-White moves white King at (4, 7) to (3, 7)
-Move 834, turn: black
-Black moves black King at (5, 0) to (6, 0)
-Move 835, turn: white
-White moves white King at (3, 7) to (4, 6)
-Move 836, turn: black
-Black moves black King at (6, 0) to (7, 1)
-Move 837, turn: white
-White moves white King at (4, 6) to (5, 7)
-Move 838, turn: black
-Black moves black King at (7, 1) to (6, 1)
-Move 839, turn: white
-White moves white King at (5, 7) to (6, 7)
-Move 840, turn: black
-Black moves black King at (6, 1) to (7, 0)
-Move 841, turn: white
-White moves white King at (6, 7) to (5, 6)
-Move 842, turn: black
-Black moves black King at (7, 0) to (6, 0)
-Move 843, turn: white
-White moves white King at (5, 6) to (5, 7)
-Move 844, turn: black
-Black moves black King at (6, 0) to (7, 1)
-Move 845, turn: white
-White moves white King at (5, 7) to (4, 7)
-Move 846, turn: black
-Black moves black King at (7, 1) to (6, 2)
-Move 847, turn: white
-White moves white King at (4, 7) to (3, 6)
-Move 848, turn: black
-Black moves black King at (6, 2) to (6, 1)
-Move 849, turn: white
-White moves white King at (3, 6) to (3, 5)
-Move 850, turn: black
-Black moves black King at (6, 1) to (6, 2)
-Move 851, turn: white
-White moves white King at (3, 5) to (4, 6)
-Move 852, turn: black
-Black moves black King at (6, 2) to (5, 2)
-Move 853, turn: white
-White moves white King at (4, 6) to (4, 7)
-Move 854, turn: black
-Black moves black King at (5, 2) to (6, 1)
-Move 855, turn: white
-White moves white King at (4, 7) to (3, 7)
-Move 856, turn: black
-Black moves black King at (6, 1) to (5, 0)
-Move 857, turn: white
-White moves white King at (3, 7) to (2, 6)
-Move 858, turn: black
-Black moves black King at (5, 0) to (6, 1)
-Move 859, turn: white
-White moves white King at (2, 6) to (3, 7)
-Move 860, turn: black
-Black moves black King at (6, 1) to (6, 2)
-Move 861, turn: white
-White moves white King at (3, 7) to (3, 6)
-Move 862, turn: black
-Black moves black King at (6, 2) to (5, 3)
-Move 863, turn: white
-White moves white King at (3, 6) to (2, 7)
-Move 864, turn: black
-Black moves black King at (5, 3) to (4, 2)
-Move 865, turn: white
-White moves white King at (2, 7) to (1, 7)
-Move 866, turn: black
-Black moves black King at (4, 2) to (5, 3)
-Move 867, turn: white
-White moves white King at (1, 7) to (2, 7)
-Move 868, turn: black
-Black moves black King at (5, 3) to (4, 2)
-Move 869, turn: white
-White moves white King at (2, 7) to (1, 7)
-Move 870, turn: black
-Black moves black King at (4, 2) to (5, 1)
-Move 871, turn: white
-White moves white King at (1, 7) to (0, 7)
-Move 872, turn: black
-Black moves black King at (5, 1) to (4, 1)
-Move 873, turn: white
-White moves white King at (0, 7) to (1, 7)
-Move 874, turn: black
-Black moves black King at (4, 1) to (3, 0)
-Move 875, turn: white
-White moves white King at (1, 7) to (1, 6)
-Move 876, turn: black
-Black moves black King at (3, 0) to (2, 0)
-Move 877, turn: white
-White moves white King at (1, 6) to (1, 5)
-Move 878, turn: black
-Black moves black King at (2, 0) to (1, 1)
-Move 879, turn: white
-White moves white King at (1, 5) to (1, 4)
-Move 880, turn: black
-Black moves black King at (1, 1) to (2, 2)
-Move 881, turn: white
-White moves white King at (1, 4) to (0, 4)
-Move 882, turn: black
-Black moves black King at (2, 2) to (1, 1)
-Move 883, turn: white
-White moves white King at (0, 4) to (1, 4)
-Move 884, turn: black
-Black moves black King at (1, 1) to (2, 1)
-Move 885, turn: white
-White moves white King at (1, 4) to (0, 5)
-Move 886, turn: black
-Black moves black King at (2, 1) to (1, 0)
-Move 887, turn: white
-White moves white King at (0, 5) to (1, 5)
-Move 888, turn: black
-Black moves black King at (1, 0) to (0, 0)
-Move 889, turn: white
-White moves white King at (1, 5) to (1, 6)
-Move 890, turn: black
-Black moves black King at (0, 0) to (1, 0)
-Move 891, turn: white
-White moves white King at (1, 6) to (0, 6)
-Move 892, turn: black
-Black moves black King at (1, 0) to (2, 1)
-Move 893, turn: white
-White moves white King at (0, 6) to (0, 7)
-Move 894, turn: black
-Black moves black King at (2, 1) to (2, 0)
-Move 895, turn: white
-White moves white King at (0, 7) to (1, 6)
-Move 896, turn: black
-Black moves black King at (2, 0) to (2, 1)
-Move 897, turn: white
-White moves white King at (1, 6) to (0, 6)
-Move 898, turn: black
-Black moves black King at (2, 1) to (3, 2)
-Move 899, turn: white
-White moves white King at (0, 6) to (0, 7)
-Move 900, turn: black
-Black moves black King at (3, 2) to (2, 2)
-Move 901, turn: white
-White moves white King at (0, 7) to (1, 7)
-Move 902, turn: black
-Black moves black King at (2, 2) to (2, 1)
-Move 903, turn: white
-White moves white King at (1, 7) to (2, 7)
-Move 904, turn: black
-Black moves black King at (2, 1) to (2, 2)
-Move 905, turn: white
-White moves white King at (2, 7) to (2, 6)
-Move 906, turn: black
-Black moves black King at (2, 2) to (2, 1)
-Move 907, turn: white
-White moves white King at (2, 6) to (2, 7)
-Move 908, turn: black
-Black moves black King at (2, 1) to (3, 1)
-Move 909, turn: white
-White moves white King at (2, 7) to (3, 7)
-Move 910, turn: black
-Black moves black King at (3, 1) to (4, 1)
-Move 911, turn: white
-White moves white King at (3, 7) to (4, 7)
-Move 912, turn: black
-Black moves black King at (4, 1) to (3, 1)
-Move 913, turn: white
-White moves white King at (4, 7) to (4, 6)
-Move 914, turn: black
-Black moves black King at (3, 1) to (2, 0)
-Move 915, turn: white
-White moves white King at (4, 6) to (4, 5)
-Move 916, turn: black
-Black moves black King at (2, 0) to (3, 0)
-Move 917, turn: white
-White moves white King at (4, 5) to (5, 5)
-Move 918, turn: black
-Black moves black King at (3, 0) to (4, 0)
-Move 919, turn: white
-White moves white King at (5, 5) to (6, 5)
-Move 920, turn: black
-Black moves black King at (4, 0) to (4, 1)
-Move 921, turn: white
-White moves white King at (6, 5) to (5, 5)
-Move 922, turn: black
-Black moves black King at (4, 1) to (4, 0)
-Move 923, turn: white
-White moves white King at (5, 5) to (5, 6)
-Move 924, turn: black
-Black moves black King at (4, 0) to (5, 1)
-Move 925, turn: white
-White moves white King at (5, 6) to (4, 5)
-Move 926, turn: black
-Black moves black King at (5, 1) to (4, 2)
-Move 927, turn: white
-White moves white King at (4, 5) to (4, 4)
-Move 928, turn: black
-Black moves black King at (4, 2) to (3, 1)
-Move 929, turn: white
-White moves white King at (4, 4) to (3, 5)
-Move 930, turn: black
-Black moves black King at (3, 1) to (3, 0)
-Move 931, turn: white
-White moves white King at (3, 5) to (2, 6)
-Move 932, turn: black
-Black moves black King at (3, 0) to (4, 1)
-Move 933, turn: white
-White moves white King at (2, 6) to (1, 6)
-Move 934, turn: black
-Black moves black King at (4, 1) to (3, 2)
-Move 935, turn: white
-White moves white King at (1, 6) to (1, 5)
-Move 936, turn: black
-Black moves black King at (3, 2) to (4, 3)
-Move 937, turn: white
-White moves white King at (1, 5) to (0, 5)
-Move 938, turn: black
+Move 94, turn: black
+Black moves black King at (2, 4) to (3, 4)
+Move 95, turn: white
+White moves white Pawn at (4, 2) to (3, 2)
+Move 96, turn: black
+Black moves black King at (3, 4) to (4, 4)
+Move 97, turn: white
+White moves white Pawn at (3, 2) to (2, 2)
+Move 98, turn: black
+Black moves black King at (4, 4) to (4, 3)
+Move 99, turn: white
+White moves white Pawn at (2, 2) to (1, 2)
+Move 100, turn: black
+Black moves black King at (4, 3) to (4, 4)
+Move 101, turn: white
+White moves white Pawn at (6, 7) to (4, 7)
+Move 102, turn: black
+Black moves black King at (4, 4) to (4, 3)
+Move 103, turn: white
+White moves white Pawn at (4, 7) to (3, 7)
+Move 104, turn: black
+Black moves black King at (4, 3) to (4, 4)
+Move 105, turn: white
+White moves white Pawn at (3, 7) to (2, 7)
+Move 106, turn: black
+Black moves black King at (4, 4) to (3, 4)
+Move 107, turn: white
+White moves white Pawn at (2, 7) to (1, 7)
+Move 108, turn: black
+Black moves black King at (3, 4) to (4, 4)
+Move 109, turn: white
+White moves white Pawn at (6, 0) to (4, 0)
+Move 110, turn: black
+Black moves black King at (4, 4) to (4, 3)
+Move 111, turn: white
+White moves white Pawn at (4, 0) to (3, 0)
+Move 112, turn: black
 Black moves black King at (4, 3) to (3, 4)
-Move 939, turn: white
-White moves white King at (0, 5) to (1, 5)
-Move 940, turn: black
-Black moves black King at (3, 4) to (2, 3)
-Move 941, turn: white
-White moves white King at (1, 5) to (0, 5)
-Move 942, turn: black
-Black moves black King at (2, 3) to (2, 4)
-Move 943, turn: white
-White moves white King at (0, 5) to (1, 6)
-Move 944, turn: black
-Black moves black King at (2, 4) to (2, 3)
-Move 945, turn: white
-White moves white King at (1, 6) to (1, 7)
-Move 946, turn: black
-Black moves black King at (2, 3) to (1, 3)
-Move 947, turn: white
-White moves white King at (1, 7) to (2, 6)
-Move 948, turn: black
-Black moves black King at (1, 3) to (1, 4)
-Move 949, turn: white
-White moves white King at (2, 6) to (2, 7)
-Move 950, turn: black
-Black moves black King at (1, 4) to (2, 3)
-Move 951, turn: white
-White moves white King at (2, 7) to (3, 7)
-Move 952, turn: black
-Black moves black King at (2, 3) to (1, 4)
-Move 953, turn: white
-White moves white King at (3, 7) to (2, 6)
-Move 954, turn: black
-Black moves black King at (1, 4) to (0, 4)
-Move 955, turn: white
-White moves white King at (2, 6) to (2, 7)
-Move 956, turn: black
-Black moves black King at (0, 4) to (1, 5)
-Move 957, turn: white
-White moves white King at (2, 7) to (1, 7)
-Move 958, turn: black
-Black moves black King at (1, 5) to (0, 5)
-Move 959, turn: white
-White moves white King at (1, 7) to (0, 7)
-Move 960, turn: black
-Black moves black King at (0, 5) to (1, 5)
-Move 961, turn: white
-White moves white King at (0, 7) to (1, 7)
-Move 962, turn: black
-Black moves black King at (1, 5) to (0, 5)
-Move 963, turn: white
-White moves white King at (1, 7) to (0, 7)
-Move 964, turn: black
-Black moves black King at (0, 5) to (1, 4)
-Move 965, turn: white
-White moves white King at (0, 7) to (0, 6)
-Move 966, turn: black
-Black moves black King at (1, 4) to (0, 3)
-Move 967, turn: white
-White moves white King at (0, 6) to (1, 6)
-Move 968, turn: black
-Black moves black King at (0, 3) to (1, 4)
-Move 969, turn: white
-White moves white King at (1, 6) to (0, 6)
-Move 970, turn: black
-Black moves black King at (1, 4) to (0, 4)
-Move 971, turn: white
-White moves white King at (0, 6) to (0, 7)
-Move 972, turn: black
-Black moves black King at (0, 4) to (1, 5)
-Move 973, turn: white
-White moves white King at (0, 7) to (1, 7)
-Move 974, turn: black
-Black moves black King at (1, 5) to (0, 4)
-Move 975, turn: white
-White moves white King at (1, 7) to (2, 7)
-Move 976, turn: black
-Black moves black King at (0, 4) to (0, 3)
-Move 977, turn: white
-White moves white King at (2, 7) to (2, 6)
-Move 978, turn: black
-Black moves black King at (0, 3) to (1, 2)
-Move 979, turn: white
-White moves white King at (2, 6) to (2, 7)
-Move 980, turn: black
-Black moves black King at (1, 2) to (0, 3)
-Move 981, turn: white
-White moves white King at (2, 7) to (3, 7)
-Move 982, turn: black
-Black moves black King at (0, 3) to (1, 4)
-Move 983, turn: white
-White moves white King at (3, 7) to (2, 6)
-Move 984, turn: black
-Black moves black King at (1, 4) to (1, 3)
-Move 985, turn: white
-White moves white King at (2, 6) to (3, 6)
-Move 986, turn: black
-Black moves black King at (1, 3) to (2, 2)
-Move 987, turn: white
-White moves white King at (3, 6) to (4, 6)
-Move 988, turn: black
-Black moves black King at (2, 2) to (1, 2)
-Move 989, turn: white
-White moves white King at (4, 6) to (5, 5)
-Move 990, turn: black
-Black moves black King at (1, 2) to (0, 2)
-Move 991, turn: white
-White moves white King at (5, 5) to (5, 4)
-Move 992, turn: black
-Black moves black King at (0, 2) to (1, 3)
-Move 993, turn: white
-White moves white King at (5, 4) to (6, 4)
-Move 994, turn: black
-Black moves black King at (1, 3) to (2, 2)
-Move 995, turn: white
-White moves white King at (6, 4) to (5, 3)
-Move 996, turn: black
-Black moves black King at (2, 2) to (3, 1)
-Move 997, turn: white
-White moves white King at (5, 3) to (6, 4)
-Move 998, turn: black
-Black moves black King at (3, 1) to (3, 0)
-Move 999, turn: white
-White moves white King at (6, 4) to (5, 3)
-Move 1000, turn: black
-Black moves black King at (3, 0) to (3, 1)
-Move 1001, turn: white
-White moves white King at (5, 3) to (6, 3)
-Move 1002, turn: black
-Black moves black King at (3, 1) to (2, 0)
-Move 1003, turn: white
-White moves white King at (6, 3) to (6, 4)
-Move 1004, turn: black
-Black moves black King at (2, 0) to (1, 1)
-Move 1005, turn: white
-White moves white King at (6, 4) to (7, 4)
-Move 1006, turn: black
-Black moves black King at (1, 1) to (0, 0)
-Move 1007, turn: white
-White moves white King at (7, 4) to (6, 3)
-Move 1008, turn: black
-Black moves black King at (0, 0) to (1, 0)
-Move 1009, turn: white
-White moves white King at (6, 3) to (7, 4)
-Move 1010, turn: black
-Black moves black King at (1, 0) to (1, 1)
-Move 1011, turn: white
-White moves white King at (7, 4) to (7, 3)
-Move 1012, turn: black
-Black moves black King at (1, 1) to (0, 0)
-Move 1013, turn: white
-White moves white King at (7, 3) to (7, 2)
-Move 1014, turn: black
-Black moves black King at (0, 0) to (0, 1)
-Draw! Insufficient material.
+Move 113, turn: white
+White moves white Pawn at (3, 0) to (2, 0)
+Move 114, turn: black
+Black moves black King at (3, 4) to (4, 3)
+Move 115, turn: white
+White moves white Pawn at (2, 0) to (1, 0)
+Move 116, turn: black
+Black moves black King at (4, 3) to (4, 4)
+Move 117, turn: white
+White moves white Rook at (7, 2) to (6, 2)
+Move 118, turn: black
+Black moves black King at (4, 4) to (4, 3)
+Move 119, turn: white
+White moves white Rook at (6, 5) to (6, 4)
+Move 120, turn: black
+Black agent has no moves left! Game over.
