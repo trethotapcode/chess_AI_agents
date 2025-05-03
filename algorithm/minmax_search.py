@@ -7,7 +7,65 @@ BISHOP_SCORE = 3
 KNIGHT_SCORE = 3
 PAWN_SCORE = 1
 
-def get_score_of_state(board, color):
+KNIGHT_POS_SCORE =  [[1, 1, 1, 1, 1, 1, 1, 1],
+                     [1, 2, 2, 2, 2, 2, 2, 1],
+                     [1, 2, 3, 3, 3, 3, 2, 1],
+                     [1, 2, 3, 4, 4, 3, 2, 1],
+                     [1, 2, 3, 4, 4, 3, 2, 1],
+                     [1, 2, 3, 3, 3, 3, 2, 1],
+                     [1, 2, 2, 2, 2, 2, 2, 1],
+                     [1, 1, 1, 1, 1, 1, 1, 1]]
+
+BISHOP_POS_SCORE =  [[4, 3, 2, 1, 1, 2, 3, 4],
+                     [3, 4, 3, 2, 2, 3, 4, 3],
+                     [2, 3, 4, 3, 3, 4, 3, 2],
+                     [1, 2, 3, 4, 4, 3, 2, 1],
+                     [1, 2, 3, 4, 4, 3, 2, 1],
+                     [2, 3, 4, 3, 3, 4, 3, 2],
+                     [3, 4, 3, 2, 2, 3, 4, 3],
+                     [4, 3, 2, 1, 1, 2, 3, 4]]
+
+QUEEN_POS_SCORE =   [[1, 1, 1, 3, 1, 1, 1, 1],
+                     [1, 2, 3, 3, 3, 1, 1, 1],
+                     [1, 4, 3, 3, 3, 4, 2, 1],
+                     [1, 2, 3, 3, 3, 2, 2, 1],
+                     [1, 2, 3, 3, 3, 2, 2, 1],
+                     [1, 4, 3, 3, 3, 4, 2, 1],
+                     [1, 2, 3, 3, 3, 1, 1, 1],
+                     [1, 1, 1, 3, 1, 1, 1, 1]]
+
+ROOK_POS_SCORE =    [[4, 3, 4, 4, 4, 4, 3, 4],
+                     [4, 4, 4, 4, 4, 4, 4, 4],
+                     [1, 1, 2, 3, 3, 2, 1, 1],
+                     [1, 2, 3, 4, 4, 3, 2, 1],
+                     [1, 2, 3, 4, 4, 3, 2, 1],
+                     [1, 1, 2, 3, 3, 2, 1, 1],
+                     [4, 4, 4, 4, 4, 4, 4, 4],
+                     [4, 3, 4, 4, 4, 4, 3, 4]]
+
+WPAWN_POS_SCORE =   [[8, 8, 8, 8, 8, 8, 8, 8],
+                     [8, 8, 8, 8, 8, 8, 8, 8],
+                     [5, 6, 6, 7, 7, 6, 6, 5],
+                     [2, 3, 3, 5, 5, 3, 3, 2],
+                     [1, 2, 3, 4, 4, 3, 2, 1],
+                     [1, 2, 3, 3, 3, 3, 2, 1],
+                     [1, 1, 1, 0, 0, 1, 1, 1],
+                     [0, 0, 0, 0, 0, 0, 0, 0]]
+
+BPAWN_POS_SCORE =   [[0, 0, 0, 0, 0, 0, 0, 0],
+                     [1, 1, 1, 0, 0, 1, 1, 1],
+                     [1, 2, 3, 3, 3, 3, 2, 1],
+                     [1, 2, 3, 4, 4, 3, 2, 1],
+                     [2, 3, 3, 5, 5, 3, 3, 2],
+                     [5, 6, 6, 7, 7, 6, 6, 5],
+                     [8, 8, 8, 8, 8, 8, 8, 8],
+                     [8, 8, 8, 8, 8, 8, 8, 8]]
+
+
+def get_score_of_state(game, color):
+    if game.check_status(color) == "checkmate":
+        return 200
+    board = game.board.board
     score = 0
 
     for i in range(8):
@@ -19,34 +77,34 @@ def get_score_of_state(board, color):
                 if cell.piece_type == 'King':
                     score += KING_SCORE
                 elif cell.piece_type == 'Queen':
-                    score += QUEEN_SCORE
+                    score += QUEEN_SCORE + 0.1 * QUEEN_POS_SCORE[i][j]
                 elif cell.piece_type == 'Rook':
-                    score += ROOK_SCORE 
+                    score += ROOK_SCORE + 0.1 * ROOK_POS_SCORE[i][j]
                 elif cell.piece_type == 'Bishop':
-                    score += BISHOP_SCORE
+                    score += BISHOP_SCORE + 0.1 * BISHOP_POS_SCORE[i][j]
                 elif cell.piece_type == 'Knight':
-                    score += KNIGHT_SCORE
+                    score += KNIGHT_SCORE + 0.1 * KNIGHT_POS_SCORE[i][j]
                 elif cell.piece_type == 'Pawn':
-                    score += PAWN_SCORE
+                    score += PAWN_SCORE + 0.1 * (WPAWN_POS_SCORE[i][j] if cell.color == 'white' else BPAWN_POS_SCORE[i][j])
             else:
                 if cell.piece_type == 'King':
                     score -= KING_SCORE 
                 elif cell.piece_type == 'Queen':
-                    score -= QUEEN_SCORE
+                    score -= QUEEN_SCORE + 0.1 * QUEEN_POS_SCORE[i][j]
                 elif cell.piece_type == 'Rook':
-                    score -= ROOK_SCORE 
+                    score -= ROOK_SCORE + 0.1 * ROOK_POS_SCORE[i][j]
                 elif cell.piece_type == 'Bishop':
-                    score -= BISHOP_SCORE
+                    score -= BISHOP_SCORE + 0.1 * BISHOP_POS_SCORE[i][j]
                 elif cell.piece_type == 'Knight':
-                    score -= KNIGHT_SCORE 
+                    score -= KNIGHT_SCORE + 0.1 * KNIGHT_POS_SCORE[i][j]
                 elif cell.piece_type == 'Pawn':
-                    score -= PAWN_SCORE 
+                    score -= PAWN_SCORE + 0.1 * (WPAWN_POS_SCORE[i][j] if cell.color != 'white' else BPAWN_POS_SCORE[i][j])
 
     return score
 
 def min_max_search(game, color, max_height, alpha=float('-inf'), beta=float('inf'), maximum_player = True):
     if max_height == 0:
-        return get_score_of_state(game.board.board, color), None
+        return get_score_of_state(game, color), None
     moves = []
     for row in game.board.board:
         # cell maybe contains piece or None.
@@ -62,6 +120,9 @@ def min_max_search(game, color, max_height, alpha=float('-inf'), beta=float('inf
                     valid_moves = game.generate_legal_moves(piece=cell)
                     for element in valid_moves:
                         moves.append((cell, element))
+
+    best_eval = None
+    best_move_to_make = None
 
     if maximum_player:
         maxEval = float('-inf')
@@ -87,7 +148,9 @@ def min_max_search(game, color, max_height, alpha=float('-inf'), beta=float('inf
             game.board.board[r_new][c_new] = captured_piece
             if beta <= alpha:
                 break
-        return maxEval, best_move
+        
+        best_eval = maxEval
+        best_move_to_make = best_move
 
     else:
         minEval = float('inf')
@@ -112,4 +175,8 @@ def min_max_search(game, color, max_height, alpha=float('-inf'), beta=float('inf
             game.board.board[r_new][c_new] = captured_piece
             if beta <= alpha:
                 break
-        return minEval, best_move
+
+        best_eval = minEval
+        best_move_to_make = best_move
+
+    return best_eval, best_move_to_make
